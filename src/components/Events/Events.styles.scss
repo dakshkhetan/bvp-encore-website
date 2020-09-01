@@ -61,17 +61,27 @@
           color: #ffffff;
         }
 
+        .icon {
+          animation: arrow-jump-right 1.5s infinite;
+        }
+
+        @keyframes arrow-jump-right {
+          0% {
+            opacity: 0.2;
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateX(10px);
+          }
+        }
+
         &:hover {
           background-color: #ffffff;
           transition: all ease-in-out 0.2s;
 
           a {
             color: #000000;
-          }
-
-          .icon {
-            transform: translate(10px);
-            transition: all ease-in-out 0.2s;
           }
         }
       }

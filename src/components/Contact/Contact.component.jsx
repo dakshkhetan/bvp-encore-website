@@ -34,7 +34,7 @@ const Contact = () => {
 
               <Fade bottom delay={500}>
                 <div className='mail-btn'>
-                  <a href='mailto:encore2020@gmail.com'>Write To Us</a>
+                  <a href='mailto:encorebvp@gmail.com'>Write To Us</a>
                 </div>
               </Fade>
             </div>

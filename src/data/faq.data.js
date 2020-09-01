@@ -1,59 +1,31 @@
-import React from 'react';
-
 export const FAQData = [
   {
-    question: 'How do I become a part of ACM?',
+    question: 'Can I attend multiple events?',
     answer:
-      'To become a part of ACM, you need to get yourself registered by any team member. For more details, you can write on the website or join the ACM WhatsApp group.',
+      'Yes, one can attend as many events as one wants by registering accordingly.',
     open: false
   },
   {
-    question: 'Do I have to pay for membership of ACM and ACM-W separately?',
+    question: 'How would I know my registration has been confirmed?',
     answer:
-      "No, you don't have to pay extra for ACM-W. It is a division of ACM but women centric.",
+      'After you have registered for the event, you will receive a confirmation mail regarding it.',
     open: false
   },
   {
-    question: 'Can I join ACM even if I am not very technically sound?',
+    question: 'Is there any payment for the events?',
     answer:
-      "Yes, everyone is welcomed at ACM. The society's aim is to help the person develop his or her technical skills with time.",
+      'Not all events are paid but there are paid events whose details would be provided in the event description.',
     open: false
   },
   {
-    question: 'What benefits are available for student members?',
-    answer: (
-      <ul>
-        <li>The student members get access to weekly technical newspaper.</li>
-        <li>
-          ACM is known for publishing research papers, so guidance and support
-          is provided regarding the same.
-        </li>
-        <li>
-          Access to all the resources and libraries of ACM, including webinars
-          and events conducted.
-        </li>
-      </ul>
-    ),
+    question: 'Which platform to be used?',
+    answer: '"Zoom" is the platform which is going to be used for this event.',
     open: false
   },
   {
-    question: 'How long is my membership valid?',
-    answer: 'The membership is valid till 1 year.',
-    open: false
-  },
-  {
-    question: 'What are some common student chapter activities?',
-    answer: (
-      <ul>
-        <li>
-          The common activities include, attending various sessions for
-          different skill building.
-        </li>
-        <li>Attending special events like SIH guidance, hacktobers, etc.</li>
-        <li>Asking for help or guidance when needed.</li>
-        <li>Developing lifelong useful skills.</li>
-      </ul>
-    ),
+    question: 'How to register?',
+    answer:
+      "Students can register using the platform called 'Commudle', in which the participants will receive a confirmation mail also and they can RSVP and then, send the screenshot at the ID encorebvp@gmail.com",
     open: false
   }
 ];

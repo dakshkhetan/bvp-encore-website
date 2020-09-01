@@ -11,13 +11,7 @@ const Hero = () => {
     <section id='home' className='section section-hero'>
       <Fade>
         <div className='logo-container'>
-          <video
-            src={video}
-            poster={poster}
-            autoPlay={true}
-            loop={true}
-            muted={true}
-          />
+          <video src={video} poster={poster} autoPlay loop muted playsInline />
         </div>
       </Fade>
     </section>

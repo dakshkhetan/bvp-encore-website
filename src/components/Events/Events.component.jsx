@@ -17,31 +17,42 @@ const Events = () => (
       <div className='section-content'>
         <div className='fade-container'>
           <div className='posters-container'>
-            <div className='poster'>
-              <img src={image} alt='event' />
-            </div>
-            <div className='poster'>
-              <img src={image} alt='event' />
-            </div>
-            <div className='poster'>
-              <img src={image} alt='event' />
-            </div>
+            <Fade bottom delay={150}>
+              <div className='poster'>
+                <img src={image} alt='event' />
+              </div>
+            </Fade>
+            <Fade bottom delay={200}>
+              <div className='poster'>
+                <img src={image} alt='event' />
+              </div>
+            </Fade>
+            <Fade bottom delay={250}>
+              <div className='poster'>
+                <img src={image} alt='event' />
+              </div>
+            </Fade>
           </div>
-          <div className='fade' />
+
+          <Fade bottom delay={250}>
+            <div className='fade' />
+          </Fade>
         </div>
 
-        <div>
+        <Fade bottom delay={250}>
           <h2 className='text'>and many more...</h2>
-        </div>
+        </Fade>
 
-        <div className='btn-container'>
-          <span className='btn-link'>
-            <Link to='/events'>
-              Checkout All Events{' '}
-              <FontAwesomeIcon icon={faArrowRight} className='icon' />
-            </Link>
-          </span>
-        </div>
+        <Fade bottom delay={350}>
+          <div className='btn-container'>
+            <span className='btn-link'>
+              <Link to='/events'>
+                Checkout All Events{' '}
+                <FontAwesomeIcon icon={faArrowRight} className='icon' />
+              </Link>
+            </span>
+          </div>
+        </Fade>
       </div>
     </section>
   </React.Fragment>
