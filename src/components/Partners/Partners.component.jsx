@@ -19,11 +19,11 @@ const Partners = () => {
       <div className='section-content'>
         <div className='partners-container'>
           {partners.map((partner) => (
-            <Fade bottom delay={200}>
-              <div key={partner.key} className='partner-image'>
+            <div key={partner.key} className='partner-image'>
+              <Fade bottom delay={200}>
                 <img src={partner.image} alt='partner' />
-              </div>
-            </Fade>
+              </Fade>
+            </div>
           ))}
         </div>
       </div>

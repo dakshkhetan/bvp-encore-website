@@ -6,6 +6,7 @@
   text-transform: uppercase;
   text-align: center;
   padding: 20px 0;
+  position: relative;
 
   a {
     color: #F5F5F5;
@@ -49,6 +50,19 @@
     }
   }
 
+  .arrow-container {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 1px;
+    cursor: pointer;
+  }
+
   @media only screen and (max-width : 425px) {
     padding: 20px 10px;
 
@@ -72,6 +86,10 @@
       .social-link {
         margin: 0 10px;
       }
+    }
+
+    .arrow-container {
+      display: none;
     }
   }
 }

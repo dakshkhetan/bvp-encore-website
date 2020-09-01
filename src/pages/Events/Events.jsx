@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
-import { animateScroll as scroll } from 'react-scroll';
 
 import { events } from '../../data/events.data';
 
@@ -12,7 +11,7 @@ import './Events.styles.scss';
 
 const Events = () => {
   useEffect(() => {
-    scroll.scrollToTop();
+    window.scrollTo(0, 0);
   }, []);
 
   return (
