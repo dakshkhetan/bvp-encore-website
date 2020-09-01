@@ -1,0 +1,147 @@
+.section-event {
+  height: 700px !important;
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .posters-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 60px;
+      margin: 20px 0;
+
+      .poster {
+        height: 280px;
+
+        img {
+          height: 100%;
+          border: 3px solid #539dfe;
+        }
+      }
+    }
+
+    .fade-container {
+      position: relative;
+
+      .fade {
+        position: absolute;
+        bottom: 0px;
+
+        display: block;
+
+        width: 100%;
+        height: 150px;
+
+        background-image: linear-gradient(to bottom,
+            rgba(233, 233, 233, 0),
+            rgba(233, 233, 233, 0.9) 100%);
+      }
+    }
+
+    h2.text {
+      font-weight: 500;
+      font-size: 1.3rem;
+    }
+
+    .btn-container {
+      margin-top: 50px;
+
+      .btn-link {
+        background-color: #131313;
+        border: 3px solid #000000;
+        border-radius: 30px;
+        font-size: 1.4rem;
+        font-weight: 400;
+        padding: 8px 25px;
+        transition: all ease-in-out 0.5s;
+
+        a {
+          color: #ffffff;
+        }
+
+        &:hover {
+          background-color: #ffffff;
+          transition: all ease-in-out 0.2s;
+
+          a {
+            color: #000000;
+          }
+
+          .icon {
+            transform: translate(10px);
+            transition: all ease-in-out 0.2s;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width : 768px) {
+    height: auto !important;
+
+    .section-content {
+      padding-bottom: 60px;
+
+      .posters-container {
+        grid-gap: 30px;
+
+        .poster {
+          height: 240px;
+        }
+      }
+
+      .fade-container {
+
+        .fade {
+          height: 100px;
+        }
+      }
+
+      .btn-container {
+        margin-top: 50px;
+
+        .btn-link {
+          font-size: 1.3rem;
+          padding: 7px 20px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width : 425px) {
+
+    .section-content {
+      padding-bottom: 60px;
+
+      .posters-container {
+        grid-gap: 15px;
+
+        .poster {
+          height: 120px;
+        }
+      }
+
+      .fade-container {
+
+        .fade {
+          height: 70px;
+        }
+      }
+
+      h2.text {
+        font-size: 1.2rem;
+      }
+
+      .btn-container {
+        margin-top: 50px;
+
+        .btn-link {
+          font-size: 1.2rem;
+          padding: 5px 12px;
+        }
+      }
+    }
+  }
+}
