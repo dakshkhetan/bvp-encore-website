@@ -31,10 +31,27 @@
       color: #848484;
       text-transform: capitalize;
       margin: 10px 0 -5px;
+      position: relative;
+      margin-left: -100px;
 
       .credit-link {
         color: #a3a3a3;
         cursor: pointer;
+        position: absolute;
+        right: -105px;
+        bottom: -1px;
+        animation: jump 2.5s infinite;
+
+        @keyframes jump {
+          0% {
+            opacity: 0.6;
+          }
+
+          100% {
+            opacity: 1;
+            transform: translateY(-2px);
+          }
+        }
       }
     }
   }
@@ -63,6 +80,20 @@
     cursor: pointer;
   }
 
+  .underline {
+    font-weight: 400;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      top: 95%;
+      left: 0;
+      border-bottom: 2.5px solid #dd6b71;
+    }
+  }
+
   @media only screen and (max-width : 425px) {
     padding: 20px 10px;
 
@@ -76,6 +107,10 @@
 
       &.credit {
         font-size: 0.8rem;
+
+        .credit-link {
+          right: -92px;
+        }
       }
     }
 

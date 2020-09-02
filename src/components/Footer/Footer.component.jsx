@@ -49,17 +49,17 @@ const Footer = () => {
         Powered by <a href='http://encore-fest.now.sh/'>BVP Encore</a>. All
         rights reserved.
       </p>
-      <p className='sub-heading credit'>
+      <span className='sub-heading credit'>
         Designed & developed by{' '}
         <a
           href='https://dakshkhetan.now.sh'
           target='_blank'
           rel='noopener noreferrer'
-          className='credit-link'
+          className='credit-link underline'
         >
           Daksh Khetan
         </a>
-      </p>
+      </span>
     </section>
   );
 };

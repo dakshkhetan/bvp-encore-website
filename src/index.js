@@ -32,9 +32,4 @@ const Root = () => (
   </Router>
 );
 
-ReactDOM.render(
-  <Router>
-    <Root />
-  </Router>,
-  document.getElementById('root')
-);
+ReactDOM.render(<Root />, document.getElementById('root'));
