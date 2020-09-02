@@ -66,21 +66,16 @@
             border-radius: 25px;
             font-size: 0.85rem;
             font-weight: 400;
+            color: #ffffff;
             padding: 1px 8px;
             margin-left: 5px;
             transition: all ease-in-out 0.2s;
-
-            a {
-              color: #ffffff;
-            }
+            cursor: pointer;
 
             &:hover {
               background-color: #ffffff;
+              color: #000000;
               transition: all ease-in-out 0.2s;
-
-              a {
-                color: #000000;
-              }
             }
           }
         }

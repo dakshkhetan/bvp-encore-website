@@ -36,6 +36,7 @@
 
       .credit-link {
         color: #a3a3a3;
+        font-weight: 500;
         cursor: pointer;
         position: absolute;
         right: -105px;
@@ -51,6 +52,10 @@
             opacity: 1;
             transform: translateY(-2px);
           }
+        }
+
+        &:hover {
+          color: #F5F5F5;
         }
       }
     }
@@ -109,7 +114,8 @@
         font-size: 0.8rem;
 
         .credit-link {
-          right: -92px;
+          right: -94px;
+          bottom: -2px;
         }
       }
     }

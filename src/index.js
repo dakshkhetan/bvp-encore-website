@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactGA from 'react-ga';
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,6 +17,8 @@ import Contact from './components/Contact/Contact.component';
 import Footer from './components/Footer/Footer.component';
 
 import './index.css';
+
+ReactGA.initialize('UA-177141157-1');
 
 const Root = () => (
   <Router>

@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import Fade from 'react-reveal/Fade';
 
 import { ReactComponent as Divider } from '../../assets/illustrations/section-divider.svg';
@@ -13,6 +14,16 @@ const Event = ({ event }) => {
     registrationLink,
     poster
   } = event;
+
+  const onClickHandler = (name, registrationLink) => (e) => {
+    e.preventDefault();
+    ReactGA.event({
+      category: "'Event Registration' Clicks",
+      action: `'${name}' button click`,
+      label: `'${name}' registration button clicked`
+    });
+    window.open(registrationLink, '_blank');
+  };
 
   return (
     <React.Fragment>
@@ -44,14 +55,11 @@ const Event = ({ event }) => {
           <Fade bottom delay={600}>
             <p>
               <span>To Register: </span>
-              <span className='register-link'>
-                <a
-                  href={registrationLink}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Click here
-                </a>
+              <span
+                className='register-link'
+                onClick={onClickHandler(name, registrationLink)}
+              >
+                Click here
               </span>
             </p>
           </Fade>

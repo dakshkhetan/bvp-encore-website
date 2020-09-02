@@ -54,12 +54,10 @@
         border-radius: 30px;
         font-size: 1.4rem;
         font-weight: 400;
+        color: #ffffff;
         padding: 8px 25px;
         transition: all ease-in-out 0.5s;
-
-        a {
-          color: #ffffff;
-        }
+        cursor: pointer;
 
         .icon {
           animation: arrow-jump-right 1.5s infinite;
@@ -78,11 +76,8 @@
 
         &:hover {
           background-color: #ffffff;
+          color: #000000;
           transition: all ease-in-out 0.2s;
-
-          a {
-            color: #000000;
-          }
         }
       }
     }

@@ -1,5 +1,8 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import { withRouter } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
 import './SideDrawer.styles.scss';
 
@@ -11,6 +14,15 @@ class SideDrawer extends React.Component {
       const { history, closeSideDrawer } = this.props;
       closeSideDrawer();
       history.push(`/${route}`);
+    };
+
+    const handleIconClick = () => {
+      ReactGA.event({
+        category: "'External Link' Clicks",
+        action: "Daksh's website opened",
+        label: "Website opened from sidedrawer's icon at bottom"
+      });
+      window.open('https://dakshkhetan.now.sh', '_blank');
     };
 
     return (
@@ -32,6 +44,11 @@ class SideDrawer extends React.Component {
             Contact
           </span>
         </div>
+        <FontAwesomeIcon
+          icon={faExternalLinkAlt}
+          className='icon'
+          onClick={handleIconClick}
+        />
       </nav>
     );
   }

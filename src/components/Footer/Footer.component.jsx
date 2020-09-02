@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import { animateScroll as scroll } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
@@ -11,6 +12,15 @@ import {
 import './Footer.styles.scss';
 
 const Footer = () => {
+  const onClickHandler = () => {
+    ReactGA.event({
+      category: "'External Link' Clicks",
+      action: "Daksh's website opened",
+      label: 'Website opened from footer credits link'
+    });
+    window.open('https://dakshkhetan.now.sh', '_blank');
+  };
+
   return (
     <section id='footer' className='footer'>
       <div className='social-icons'>
@@ -49,16 +59,9 @@ const Footer = () => {
         Powered by <a href='http://encore-fest.now.sh/'>BVP Encore</a>. All
         rights reserved.
       </p>
-      <span className='sub-heading credit'>
+      <span className='sub-heading credit' onClick={onClickHandler}>
         Designed & developed by{' '}
-        <a
-          href='https://dakshkhetan.now.sh'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='credit-link underline'
-        >
-          Daksh Khetan
-        </a>
+        <span className='credit-link underline'>Daksh Khetan</span>
       </span>
     </section>
   );

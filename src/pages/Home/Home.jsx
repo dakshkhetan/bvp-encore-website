@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
 
 import Hero from '../../components/Hero/Hero.component';
 import About from '../../components/About/About.component';
@@ -12,6 +13,7 @@ import './Home.styles.scss';
 const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
