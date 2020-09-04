@@ -1,16 +1,18 @@
 .section-about {
+  height: auto !important;
 
   .section-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
 
     .info {
-      width: 60%;
-      margin: -10px auto 30px;
+      width: 85%;
+      margin: -10px auto 40px;
 
       p {
-        text-align: center;
+        text-align: justify;
         font-size: 1.2rem;
       }
     }
@@ -27,7 +29,7 @@
       padding-bottom: 40px;
 
       .info {
-        width: 80%;
+        width: 90%;
         margin-bottom: 30px;
 
         p {
@@ -45,14 +47,14 @@
   @media only screen and (max-width : 425px) {
 
     .section-content {
-      padding-bottom: 50px;
+      padding-bottom: 40px;
 
       .info {
-        width: 100%;
+        width: 90%;
         margin-top: 0;
 
         p {
-          font-size: 1rem;
+          font-size: 1.05rem;
           margin-top: 0;
         }
       }
