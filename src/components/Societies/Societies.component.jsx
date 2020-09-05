@@ -18,7 +18,7 @@ const Societies = () => (
               <img src={society.logo} alt='society' />
             </Fade>
             <Fade bottom delay={500}>
-              <h2>{society.name}</h2>
+              <span className='underline'>{society.name}</span>
             </Fade>
           </div>
         ))}
