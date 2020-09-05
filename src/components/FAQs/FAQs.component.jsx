@@ -38,7 +38,7 @@ const FAQs = () => {
           <div className='section-content'>
             <div className='faqs'>
               {faqs.map((faq, i) => (
-                <FAQ index={i} faq={faq} toggleFAQ={toggleFAQ} />
+                <FAQ key={i} index={i} faq={faq} toggleFAQ={toggleFAQ} />
               ))}
             </div>
             <div className='image-container'>

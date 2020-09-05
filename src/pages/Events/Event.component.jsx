@@ -8,11 +8,14 @@ const Event = ({ event }) => {
   const {
     code,
     name,
-    description,
+    date,
+    team,
     prize,
+    registrationFee,
     organisingSociety,
     registrationLink,
-    poster
+    poster,
+    description
   } = event;
 
   const onClickHandler = (name, registrationLink) => (e) => {
@@ -27,7 +30,7 @@ const Event = ({ event }) => {
 
   return (
     <React.Fragment>
-      <div className={`event-container ${code}`}>
+      <div id={code} className={`event-container ${code}`}>
         <Fade delay={250}>
           <div className='poster'>
             <img src={poster} alt='poster' />
@@ -35,21 +38,39 @@ const Event = ({ event }) => {
         </Fade>
         <div className='info'>
           <Fade bottom delay={200}>
-            <h2>{name}</h2>
+            <h2 className='event-name'>{name}</h2>
           </Fade>
           <Fade bottom delay={200}>
-            <p>{description}</p>
+            <div className='description'>{description}</div>
           </Fade>
           <Fade bottom delay={400}>
             <p>
-              <span>Prize Money: </span>
-              <span className='underline'>Rs. {prize}</span>
+              <span>Date: </span>
+              <span className='underline'>{date}</span>
             </p>
           </Fade>
           <Fade bottom delay={500}>
             <p>
               <span>Organising Society: </span>
               <span className='underline'>{organisingSociety}</span>
+            </p>
+          </Fade>
+          <Fade bottom delay={400}>
+            <p>
+              <span>Team Size: </span>
+              <span className='underline'>{team} member(s)</span>
+            </p>
+          </Fade>
+          <Fade bottom delay={400}>
+            <p>
+              <span>Prize Money: </span>
+              <span className='underline'>{prize}</span>
+            </p>
+          </Fade>
+          <Fade bottom delay={400}>
+            <p>
+              <span>Registration Fee: </span>
+              <span className='underline'>{registrationFee}</span>
             </p>
           </Fade>
           <Fade bottom delay={600}>
@@ -66,9 +87,11 @@ const Event = ({ event }) => {
         </div>
       </div>
 
-      <div className='divider-container'>
-        <Divider className='divider' />
-      </div>
+      <Fade delay={150}>
+        <div className='divider-container'>
+          <Divider className='divider' />
+        </div>
+      </Fade>
     </React.Fragment>
   );
 };
