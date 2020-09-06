@@ -26,9 +26,11 @@ const Contact = () => {
               </Fade>
               <Fade bottom delay={400}>
                 <p className='text text-2'>
-                  <span className='underline'>Full Name</span>
+                  <span className='underline'>Akshat Jain</span>
                   <br />
-                  <span className='underline'>+91-XXXXXXXXXX</span>
+                  <span className='underline'>
+                    <a href='tel:+918470034433'>+91-8470034433</a>
+                  </span>
                 </p>
               </Fade>
 
