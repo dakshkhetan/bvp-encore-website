@@ -462,8 +462,8 @@ export const events = {
       description: (
         <p>
           There will be 3-4 rounds in which the teams would be given a theme for
-          a round (i.e. health, lifestyle etc.) and the time limit will of 3 hou
-          {Rs()} In this time the members can think of an innovative idea and
+          a round (i.e. health, lifestyle etc.) and the time limit will of 3
+          hours. In this time the members can think of an innovative idea and
           must prepare a PPT for the same. They also can present some additional
           things like simulation (for hardware) or a prototype for their idea.
           Every round will be judged and some teams will be eliminated after
@@ -515,7 +515,7 @@ export const events = {
         <p>
           For all the enthusiastic quizzers out there, we will organise a fun
           and interesting quiz based on a variety of topics. People can
-          participate individually or in groups of 2 or 3 membe{Rs()}
+          participate individually or in groups of 2 or 3 members.
         </p>
       )
     }
