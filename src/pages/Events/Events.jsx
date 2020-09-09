@@ -39,7 +39,7 @@ const Events = () => {
                 <ul>
                   {eventsList.map((event, i) => (
                     <li key={i}>
-                      <AnchorLink offset='550' href={`#${event.code}`}>
+                      <AnchorLink offset='620' href={`#${event.code}`}>
                         {event.name}
                       </AnchorLink>
                     </li>

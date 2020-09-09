@@ -21,7 +21,7 @@ export const societies = [
   },
   {
     key: '5',
-    name: 'AAGAZ',
+    name: 'AAGAAZ',
     logo: require('../assets/societies/aagaaz.png')
   },
   {
@@ -36,7 +36,7 @@ export const societies = [
   },
   {
     key: '8',
-    name: 'CSI',
+    name: 'BVPCSI',
     logo: require('../assets/societies/csi.png')
   }
 ];

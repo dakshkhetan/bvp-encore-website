@@ -15,24 +15,11 @@ const AboutUs = () => (
       <div className='info'>
         <Fade bottom delay={150}>
           <p>
-            The key to unlocking our normal daily lives is a vaccine, and
-            because of these many students have built up various feelings like
-            anxiety so a little burst of magic is required to beat those
-            feelings and continue with a fresh start. Now, magic might be
-            unreal, but some students are no less magical, for the co-curricular
-            skills and rhythms they declare with, are indubitably surreal.
-          </p>
-          <p>
-            ENCORE is a non-technical fest of our college. It tests the
-            non-technical and managerial skills of the students which act as a
-            zephyr to them as they tend to discover a new part of themselves. It
-            sets up the stage for all the dynamic students to perform, innovate,
-            create, excel, and provide an opportunity to win exciting prizes.
-          </p>
-          <p>
-            It provides a platform to bring together young enthusiasts from
-            colleges in Delhi-NCR to showcase their talent, knowledge, and
-            co-curricular skills.
+            The key to unlock the effect of this pandemic isn't just a vaccine.
+            It requires a paradigm shift in the monotony of life for students.
+            With classes going online and anxiety clouding their thoughts, a
+            little burst of magic is imperative to keep them motivated. We're
+            here to create that magic.
           </p>
         </Fade>
       </div>
