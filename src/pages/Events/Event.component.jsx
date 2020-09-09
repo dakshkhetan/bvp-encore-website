@@ -58,7 +58,7 @@ const Event = ({ event }) => {
           <Fade bottom delay={400}>
             <p>
               <span>Team Size: </span>
-              <span className='underline'>{team} member(s)</span>
+              <span className='underline'>{team}</span>
             </p>
           </Fade>
           <Fade bottom delay={400}>

@@ -1,9 +1,11 @@
 import React from 'react';
 
+const Rs = () => <span className='rupee-symbol'>₹</span>;
+
 export const eventsList = [
   {
     code: 'das-1',
-    name: 'Lockdown PhotoJournalism'
+    name: 'Lockdown Photojournalism'
   },
   {
     code: 'das-2',
@@ -27,7 +29,7 @@ export const eventsList = [
   },
   {
     code: 'acm-3',
-    name: 'Video Making'
+    name: 'Video Editing'
   },
   {
     code: 'edc-1',
@@ -43,7 +45,7 @@ export const eventsList = [
   },
   {
     code: 'aura-1',
-    name: 'Solo Dance'
+    name: 'Solo Dance Competition'
   },
   {
     code: 'isa-1',
@@ -63,14 +65,14 @@ export const events = {
   das: [
     {
       code: 'das-1',
-      name: 'LOCKDOWN PHOTOJOURNALISM',
+      name: 'Lockdown Photojournalism',
       date: '3rd October',
-      team: '1',
+      team: '1 member',
       prize: (
         <span className='prize-money'>
-          <span className='underline'>Rs. 200 (1st Prize)</span>
+          <span className='underline'>{Rs()} 200 (1st Prize)</span>
           <br />
-          <span className='underline'>Rs. 100 (2nd Prize)</span>
+          <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
       registrationFee: 'FREE',
@@ -114,14 +116,14 @@ export const events = {
     },
     {
       code: 'das-2',
-      name: 'MACRO PHOTOGRAPHY',
+      name: 'Macro Photography',
       date: '3rd October',
-      team: '1',
+      team: '1 member',
       prize: (
         <span className='prize-money'>
-          <span className='underline'>Rs. 200 (1st Prize)</span>
+          <span className='underline'>{Rs()} 200 (1st Prize)</span>
           <br />
-          <span className='underline'>Rs. 100 (2nd Prize)</span>
+          <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
       registrationFee: 'FREE',
@@ -155,14 +157,14 @@ export const events = {
     },
     {
       code: 'das-3',
-      name: 'LIGHT PAINTING',
+      name: 'Light Painting',
       date: '3rd October',
-      team: '1',
+      team: '1 member',
       prize: (
         <span className='prize-money'>
-          <span className='underline'>Rs. 200 (1st Prize)</span>
+          <span className='underline'>{Rs()} 200 (1st Prize)</span>
           <br />
-          <span className='underline'>Rs. 100 (2nd Prize)</span>
+          <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
       registrationFee: 'FREE',
@@ -177,7 +179,8 @@ export const events = {
               Aura be the colours <br />
               To bring a scene to life but painting it with a beam of light.
             </em>
-            <br />
+          </p>
+          <p>
             It's a technique of moving a light source by taking a long exposure
             of the object.
           </p>
@@ -201,14 +204,14 @@ export const events = {
     },
     {
       code: 'das-4',
-      name: 'YOUR BEST SHOT',
+      name: 'Your Best Shot',
       date: '3rd October',
-      team: '1',
+      team: '1 member',
       prize: (
         <span className='prize-money'>
-          <span className='underline'>Rs. 200 (1st Prize)</span>
+          <span className='underline'>{Rs()} 200 (1st Prize)</span>
           <br />
-          <span className='underline'>Rs. 100 (2nd Prize)</span>
+          <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
       registrationFee: 'FREE',
@@ -251,8 +254,8 @@ export const events = {
       code: 'enactus-1',
       name: 'Case Challenge',
       date: '3rd October',
-      team: '3-5',
-      prize: 'Rs. 2000',
+      team: '3-5 members',
+      prize: <>{Rs()} 2000</>,
       registrationFee: 'FREE',
       organisingSociety: 'Enactus',
       registrationLink: 'https://commudle.com/',
@@ -273,9 +276,9 @@ export const events = {
   acm: [
     {
       code: 'acm-1',
-      name: 'THINK AND GROW RICH',
+      name: 'Think and Grow Rich',
       date: '3rd & 4th October',
-      team: '4',
+      team: '4 members',
       prize: 'TBD',
       registrationFee: 'TBD',
       organisingSociety: 'ACM',
@@ -292,9 +295,9 @@ export const events = {
     },
     {
       code: 'acm-2',
-      name: 'MEME MAKING',
+      name: 'Meme Making',
       date: '3rd October',
-      team: '1',
+      team: '1 member',
       prize: 'TBD',
       registrationFee: 'TBD',
       organisingSociety: 'ACM',
@@ -311,9 +314,9 @@ export const events = {
     },
     {
       code: 'acm-3',
-      name: 'VIDEO EDITING',
+      name: 'Video Editing',
       date: '4th October',
-      team: '3',
+      team: '3 members',
       prize: 'TBD',
       registrationFee: 'TBD',
       organisingSociety: 'ACM',
@@ -334,9 +337,9 @@ export const events = {
       code: 'edc-1',
       name: 'Auction Ideathon',
       date: '3rd & 4th October',
-      team: '1-3',
+      team: '1-3 members',
       prize: 'TBD',
-      registrationFee: 'Rs. 50',
+      registrationFee: <>{Rs()} 50</>,
       organisingSociety: 'EDC',
       registrationLink: 'https://commudle.com/',
       poster: require('../assets/events/placeholder.png'),
@@ -356,9 +359,9 @@ export const events = {
       code: 'edc-2',
       name: 'Web Series Quiz',
       date: '3rd October',
-      team: '1',
+      team: '1 member',
       prize: 'TBD',
-      registrationFee: 'Rs. 30',
+      registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'EDC',
       registrationLink: 'https://commudle.com/',
       poster: require('../assets/events/placeholder.png'),
@@ -373,9 +376,9 @@ export const events = {
       code: 'edc-3',
       name: 'Business Quiz',
       date: '4th October',
-      team: '1-2',
+      team: '1-2 members',
       prize: 'TBD',
-      registrationFee: 'Rs. 30',
+      registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'EDC',
       registrationLink: 'https://commudle.com/',
       poster: require('../assets/events/placeholder.png'),
@@ -391,30 +394,49 @@ export const events = {
   aura: [
     {
       code: 'aura-1',
-      name: 'SOLO DANCE',
+      name: 'RANGMANCH (Solo Dance Competition)',
       date: '3rd October',
-      team: '1',
-      prize: 'Rs. 2000',
+      team: '1 member',
+      prize: <>{Rs()} 2000</>,
       registrationFee: 'FREE',
       organisingSociety: 'AURA',
       registrationLink: 'https://commudle.com/',
       poster: require('../assets/events/placeholder.png'),
       description: (
-        <ul>
-          <li>
-            <em>Round 1:</em> You must upload a 1-minute (max) dance video and
-            post it on your Instagram and tag <b>@aura_dancecrew</b> to
-            participate. Your entry will be considered only if you follow the
-            page.
-            <br />
-            [The videos must be uploaded from{' '}
-            <strong>20th to 26th September</strong>]
-          </li>
-          <li>
-            <em>Round 2:</em> This will be the final round and the details will
-            be disclosed when the poster is out.
-          </li>
-        </ul>
+        <div>
+          <p className='text-center'>
+            <b>THIS EVENT IS OPEN TO ALL</b>
+          </p>
+          <p className='sub-heading'>
+            <em>Round 1:</em>
+          </p>
+          <ul>
+            <li>
+              After paying the registration fee, follow <b>@aura_dancecrew</b>{' '}
+              to register yourself for the event.
+            </li>
+            <li>
+              You have to upload a 1 minute (max) dance video on any song and
+              post it on your Instagram and tag <b>@aura_dancecrew</b> and put
+              <b> #encore2020</b> to participate.
+            </li>
+            <li>
+              The videos can be uploaded from 20th to 26th September (11 pm).
+            </li>
+          </ul>
+          <p className='sub-heading'>
+            <em>Round 2:</em>
+          </p>
+          <ul>
+            <li>
+              Top 6 selected participants will be given an opponent to battle
+              with (3 battles, 3 finalists).
+            </li>
+            <li>
+              The winner will be selected from these 3 finalists by the judge.
+            </li>
+          </ul>
+        </div>
       )
     }
   ],
@@ -423,14 +445,14 @@ export const events = {
       code: 'isa-1',
       name: 'Technical Ideathon',
       date: '3rd October',
-      team: '3-4',
+      team: '3-4 members',
       prize: (
         <span className='prize-money'>
-          <span className='underline'>Rs. 1500 (1st Prize)</span>
+          <span className='underline'>{Rs()} 1500 (1st Prize)</span>
           <br />
-          <span className='underline'>Rs. 1000 (2nd Prize)</span>
+          <span className='underline'>{Rs()} 1000 (2nd Prize)</span>
           <br />
-          <span className='underline'>Rs. 500 (3rd Prize)</span>
+          <span className='underline'>{Rs()} 500 (3rd Prize)</span>
         </span>
       ),
       registrationFee: 'TBD',
@@ -440,8 +462,8 @@ export const events = {
       description: (
         <p>
           There will be 3-4 rounds in which the teams would be given a theme for
-          a round (i.e. health, lifestyle etc.) and the time limit will of 3
-          hours. In this time the members can think of an innovative idea and
+          a round (i.e. health, lifestyle etc.) and the time limit will of 3 hou
+          {Rs()} In this time the members can think of an innovative idea and
           must prepare a PPT for the same. They also can present some additional
           things like simulation (for hardware) or a prototype for their idea.
           Every round will be judged and some teams will be eliminated after
@@ -454,11 +476,11 @@ export const events = {
   aagaaz: [
     {
       code: 'aagaaz-1',
-      name: 'MUSIC TRIVIA',
+      name: 'Music Trivia',
       date: '3rd & 4th October',
-      team: '13',
-      prize: 'Rs. 500',
-      registrationFee: 'Rs. 30',
+      team: '1-3 members',
+      prize: <>{Rs()} 500</>,
+      registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'AAGAAZ',
       registrationLink: 'https://commudle.com/',
       poster: require('../assets/events/placeholder.png'),
@@ -483,17 +505,17 @@ export const events = {
       code: 'csi-1',
       name: 'Quizzing Event',
       date: '3rd October',
-      team: '1-3',
+      team: '1-3 members',
       prize: 'TBD',
       registrationFee: 'TBD',
-      organisingSociety: 'CSI',
+      organisingSociety: 'BVPCSI',
       registrationLink: 'https://commudle.com/',
       poster: require('../assets/events/placeholder.png'),
       description: (
         <p>
           For all the enthusiastic quizzers out there, we will organise a fun
           and interesting quiz based on a variety of topics. People can
-          participate individually or in groups of 2 or 3 members.
+          participate individually or in groups of 2 or 3 membe{Rs()}
         </p>
       )
     }
