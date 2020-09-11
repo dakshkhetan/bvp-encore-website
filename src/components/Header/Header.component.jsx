@@ -70,6 +70,7 @@ class Header extends React.Component {
       </Link>
       {this.headerOption('partners')}
       {this.headerOption('faq')}
+      {this.headerOption('team')}
       {this.headerOption('contact')}
     </React.Fragment>
   );

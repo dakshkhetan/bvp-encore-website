@@ -22,7 +22,7 @@ export const societies = [
   {
     key: '4',
     name: 'AURA',
-    logo: require('../assets/societies/aura.png'),
+    logo: require('../assets/societies/aura-old.png'),
     description:
       'AURA (A Union of Raw Artists), is a group of enthusiastic dancers from varied dance backgrounds such as- Jazz, Animation, Popping, Bharatanatyam, Breaking, Hip Hop, Whacking, Kathak and a little bit of house. And We as dancers simply believe in hard work as we practice day and night on our skills and feed our passion for dance by moving on music as it tells us to.'
   },

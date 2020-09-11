@@ -7,6 +7,7 @@ import Societies from '../../components/Societies/Societies.component';
 import Events from '../../components/Events/Events.component';
 import Partners from '../../components/Partners/Partners.component';
 import FAQs from '../../components/FAQs/FAQs.component';
+import Team from '../../components/Team/Team.component';
 import Contact from '../../components/Contact/Contact.component';
 
 import './Home.styles.scss';
@@ -25,6 +26,7 @@ const Home = () => {
       <Events />
       <Partners />
       <FAQs />
+      <Team />
       <Contact />
     </div>
   );
