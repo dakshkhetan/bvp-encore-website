@@ -500,7 +500,7 @@ export const events = {
       )
     }
   ],
-  csi: [
+  bvpcsi: [
     {
       code: 'csi-1',
       name: 'Quizzing Event',

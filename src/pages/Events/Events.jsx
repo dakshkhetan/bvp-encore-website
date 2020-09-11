@@ -56,7 +56,7 @@ const Events = () => {
           {mapEventComponent(events.aura)}
           {mapEventComponent(events.isa)}
           {mapEventComponent(events.aagaaz)}
-          {mapEventComponent(events.csi)}
+          {mapEventComponent(events.bvpcsi)}
         </div>
 
         <div className='illustration-container'>

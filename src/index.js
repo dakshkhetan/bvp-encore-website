@@ -11,6 +11,7 @@ import {
 import Header from './components/Header/Header.component';
 import Home from './pages/Home/Home';
 import Events from './pages/Events/Events';
+import Society from './components/Society/Society.component';
 import Partners from './components/Partners/Partners.component';
 import FAQs from './components/FAQs/FAQs.component';
 import Contact from './components/Contact/Contact.component';
@@ -29,6 +30,7 @@ const Root = () => (
       <Route path='/partners' component={Partners} />
       <Route path='/faq' component={FAQs} />
       <Route path='/contact' component={Contact} />
+      <Route path='/society/:societyName' component={Society} />
       <Redirect to='/' />
     </Switch>
     <Footer />
