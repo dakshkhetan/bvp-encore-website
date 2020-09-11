@@ -48,10 +48,27 @@
       align-items: center;
       margin-top: 15px;
 
-      p {
+      .intro {
         width: 80%;
-        font-size: 1.2rem;
-        text-align: justify;
+        display: flex;
+        flex-direction: column;
+
+        p {
+          width: 100%;
+          font-size: 1.2rem;
+          text-align: justify;
+          margin: 8px 0;
+        }
+
+        ul {
+          margin: 0;
+          padding-inline-start: 25px;
+
+          li {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+          }
+        }
       }
 
       .events {
@@ -124,9 +141,20 @@
       }
 
       .info {
-        p {
+
+        .intro {
           width: 90%;
-          font-size: 1rem;
+
+          p {
+            width: 100%;
+            font-size: 1rem;
+          }
+
+          ul {
+            li {
+              font-size: 0.95rem;
+            }
+          }
         }
 
         .events {

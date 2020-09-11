@@ -398,31 +398,38 @@ export const events = {
       date: '3rd October',
       team: '1 member',
       prize: <>{Rs()} 2000</>,
-      registrationFee: 'FREE',
+      registrationFee: <>{Rs()} 50</>,
       organisingSociety: 'AURA',
       registrationLink: 'https://commudle.com/',
       poster: require('../assets/events/placeholder.png'),
       description: (
         <div>
-          <p className='text-center'>
-            <b>THIS EVENT IS OPEN TO ALL</b>
+          <p className='sub-heading'>
+            <em>Guidelines:</em>
           </p>
+          <ul>
+            <li>
+              The registration starts at 20th September 2020. The last date to
+              register is 26th September 2020. The registration fee is Rs 50.
+            </li>
+            <li>
+              Following <b>@aura_dancecrew</b> on Instagram is mandatory. Your
+              entries will not be considered if the page is not followed.
+            </li>
+            <li>
+              The videos can be uploaded from 20th to 26th September (11 pm).
+            </li>
+          </ul>
           <p className='sub-heading'>
             <em>Round 1:</em>
           </p>
           <ul>
             <li>
-              After paying the registration fee, follow <b>@aura_dancecrew</b>{' '}
-              to register yourself for the event.
+              Participants shall upload a 1 minute (max) dance video on any song
+              and post it on their Instagram account, tag <b>@aura_dancecrew</b>{' '}
+              and use <b>#encore2020</b> in their posts.
             </li>
-            <li>
-              You have to upload a 1 minute (max) dance video on any song and
-              post it on your Instagram and tag <b>@aura_dancecrew</b> and put
-              <b> #encore2020</b> to participate.
-            </li>
-            <li>
-              The videos can be uploaded from 20th to 26th September (11 pm).
-            </li>
+            <li>6 participants will be shortlisted from this round.</li>
           </ul>
           <p className='sub-heading'>
             <em>Round 2:</em>
@@ -435,6 +442,7 @@ export const events = {
             <li>
               The winner will be selected from these 3 finalists by the judge.
             </li>
+            <li>Stay tuned to our page for further updates.</li>
           </ul>
         </div>
       )

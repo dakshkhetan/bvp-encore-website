@@ -59,10 +59,10 @@ const Society = ({ match }) => {
         </div>
         <div className='info'>
           <Fade bottom delay={200}>
-            <p>{society.description}</p>
+            <div className='intro'>{society.description}</div>
           </Fade>
           <div className='events'>
-            <Fade bottom delay={500}>
+            <Fade bottom delay={450}>
               <h2>Events:</h2>
             </Fade>
             <div className='events-list'>
