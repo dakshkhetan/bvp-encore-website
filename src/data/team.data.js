@@ -4,9 +4,9 @@ export const TeamData = {
       key: '1',
       name: 'Akshat Jain',
       position: 'Fest Coordinator',
-      linkedInURL: 'https://linkedin.com/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/',
+      linkedInURL: 'https://linkedin.com/in/akshat-jain-019740170',
+      instagramURL: 'https://instagram.com/akijain2000',
+      twitterURL: 'https://twitter.com/akijain2000',
       displayPicSrc: require('../assets/team/akshat.jpeg')
     },
     {
@@ -40,9 +40,9 @@ export const TeamData = {
       key: '5',
       name: 'Mishael Thomas',
       position: 'Event Management',
-      linkedInURL: 'https://linkedin.com/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/',
+      linkedInURL: 'https://linkedin.com/in/mishaelthomas1482',
+      instagramURL: 'https://instagram.com/mishael1482',
+      twitterURL: '',
       displayPicSrc: require('../assets/team/mishael.jpeg')
     },
     {
@@ -67,9 +67,9 @@ export const TeamData = {
       key: '8',
       name: 'Keshav Goyal',
       position: 'Social Media',
-      linkedInURL: 'https://linkedin.com/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/',
+      linkedInURL: 'https://linkedin.com/in/keshav-goyal-768302174',
+      instagramURL: 'https://instagram.com/_keshav_goyal',
+      twitterURL: '',
       displayPicSrc: require('../assets/team/keshav.jpeg')
     }
   ]

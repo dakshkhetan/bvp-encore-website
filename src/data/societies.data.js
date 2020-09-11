@@ -26,11 +26,11 @@ export const societies = [
     description: (
       <Fade bottom delay={100}>
         <p>
-          Entrepreneurship Development Cell, founded in 2013 with a view to
-          encourage students of BVCOE from all disciplines. The cell focuses on
-          students self-employment as a career option and also provides training
-          in Entrepreneurship through modular courses. EDC is committed to
-          entrepreneurship education, training and research. EDC strives to
+          <b>Entrepreneurship Development Cell</b>, founded in 2013 with a view
+          to encourage students of BVCOE from all disciplines. The cell focuses
+          on students self-employment as a career option and also provides
+          training in Entrepreneurship through modular courses. EDC is committed
+          to entrepreneurship education, training and research. EDC strives to
           provide innovative training techniques, competent faculty support,
           consultancy and quality teaching & training material.
         </p>

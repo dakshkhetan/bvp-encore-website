@@ -33,7 +33,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faTwitter} className='icon twitter' />
         </a>
         <a
-          href='https://www.instagram.com/'
+          href='https://www.instagram.com/encore.bvp'
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
@@ -41,7 +41,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faInstagram} className='icon instagram' />
         </a>
         <a
-          href='https://www.facebook.com/'
+          href='https://www.facebook.com/encorebvp'
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
