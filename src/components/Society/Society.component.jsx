@@ -32,11 +32,7 @@ const Society = ({ match }) => {
   }
 
   const scrollWithOffset = (el, offset) => {
-    window.scroll({
-      top: el.offsetTop - offset,
-      left: 0,
-      behavior: 'smooth'
-    });
+    scroll.scrollTo(el.offsetTop - offset);
   };
 
   return (

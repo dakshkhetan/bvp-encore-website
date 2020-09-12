@@ -18,10 +18,11 @@
       border: 5px solid darken(#539dfe, 8%);
       background-color: darken(#539dfe, 8%);
       border-radius: 5px;
-      padding: 5px;
+      padding: 5px 0;
 
       a {
         color: #fff;
+        padding: 10px 5px;
       }
     }
   }
@@ -121,10 +122,11 @@
       margin-top: 35px;
 
       span {
-        padding: 3px;
+        padding: 3px 0;
 
         a {
           font-size: 0.9rem;
+          padding: 10px 3px;
         }
       }
     }

@@ -14,8 +14,8 @@ export const TeamData = {
       name: 'Pulkit Sharma',
       position: 'Fest Coordinator',
       linkedInURL: 'https://linkedin.com/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/',
+      instagramURL: '',
+      twitterURL: '',
       displayPicSrc: require('../assets/team/pulkit.jpeg')
     },
     {
@@ -31,9 +31,9 @@ export const TeamData = {
       key: '4',
       name: 'Sanjay Singh',
       position: 'Design Head',
-      linkedInURL: 'https://linkedin.com/in/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/',
+      linkedInURL: 'https://linkedin.com/in/sanjay-singh-b84aa7137',
+      instagramURL: 'https://instagram.com/oye.sanjay',
+      twitterURL: 'https://twitter.com/oye_sanjaay',
       displayPicSrc: require('../assets/team/sanjay.jpeg')
     },
     {
@@ -58,9 +58,9 @@ export const TeamData = {
       key: '7',
       name: 'Prerna Arya',
       position: 'Sponsorship',
-      linkedInURL: 'https://linkedin.com/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/',
+      linkedInURL: 'https://linkedin.com/in/prerna-arya-a1a8a9179',
+      instagramURL: 'https://instagram.com/aryaprerna23',
+      twitterURL: '',
       displayPicSrc: require('../assets/team/prerna.jpeg')
     },
     {
