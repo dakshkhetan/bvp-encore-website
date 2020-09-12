@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
 import { Redirect } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import Fade from 'react-reveal/Fade';
+import { animateScroll as scroll } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
@@ -12,7 +13,7 @@ import './Society.styles.scss';
 
 const Society = ({ match }) => {
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    scroll.scrollToTop();
   }, []);
 
   const index = societies.findIndex(

@@ -20,6 +20,9 @@ import Footer from './components/Footer/Footer.component';
 
 import './index.css';
 
+import smoothscroll from 'smoothscroll-polyfill';
+smoothscroll.polyfill();
+
 ReactGA.initialize('UA-177141157-1');
 
 const Root = () => (
