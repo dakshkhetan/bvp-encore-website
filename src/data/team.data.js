@@ -13,8 +13,8 @@ export const TeamData = {
       key: '2',
       name: 'Pulkit Sharma',
       position: 'Fest Coordinator',
-      linkedInURL: 'https://linkedin.com/',
-      instagramURL: '',
+      linkedInURL: 'https://linkedin.com/in/pulkitsharma153',
+      instagramURL: 'https://instagram.com/pukki.sharma',
       twitterURL: '',
       displayPicSrc: require('../assets/team/pulkit.jpeg')
     },
@@ -49,9 +49,9 @@ export const TeamData = {
       key: '6',
       name: 'Ankita Natarajan',
       position: 'Documentation',
-      linkedInURL: 'https://linkedin.com/',
-      instagramURL: 'https://instagram.com/',
-      twitterURL: 'https://twitter.com/',
+      linkedInURL: 'https://linkedin.com/in/ankita-natarajan-aa5079170',
+      instagramURL: 'https://instagram.com/ankita624',
+      twitterURL: 'https://twitter.com/ankitanatarajan',
       displayPicSrc: require('../assets/team/ankita.jpeg')
     },
     {

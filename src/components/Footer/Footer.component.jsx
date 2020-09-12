@@ -25,7 +25,7 @@ const Footer = () => {
     <section id='footer' className='footer'>
       <div className='social-icons'>
         <a
-          href='https://twitter.com/'
+          href='https://twitter.com/BvpEncore'
           className='social-link'
           target='_blank'
           rel='noopener noreferrer'
