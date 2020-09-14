@@ -33,7 +33,7 @@ export const eventsList = [
   },
   {
     code: 'acm-2',
-    name: 'Meme Making'
+    name: 'Meme Wars'
   },
   {
     code: 'acm-3',
@@ -86,7 +86,7 @@ export const events = {
       registrationFee: 'FREE',
       organisingSociety: 'DAS',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/lockdown-photojournalism',
+        'https://commudle.com/communities/encore-2020/events/lockdown-photojournalism',
       poster: require('../assets/events/lockdown-photojournalism.jpeg'),
       description: (
         <div>
@@ -138,7 +138,7 @@ export const events = {
       registrationFee: 'FREE',
       organisingSociety: 'DAS',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/macro-photography',
+        'https://commudle.com/communities/encore-2020/events/macro-photography',
       poster: require('../assets/events/macro-photography.jpeg'),
       description: (
         <div>
@@ -180,7 +180,7 @@ export const events = {
       registrationFee: 'FREE',
       organisingSociety: 'DAS',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/light-painting',
+        'https://commudle.com/communities/encore-2020/events/light-painting',
       poster: require('../assets/events/placeholder.png'),
       description: (
         <div>
@@ -228,7 +228,7 @@ export const events = {
       registrationFee: 'FREE',
       organisingSociety: 'DAS',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/your-best-shot',
+        'https://commudle.com/communities/encore-2020/events/your-best-shot',
       poster: require('../assets/events/your-best-shot.jpeg'),
       description: (
         <div>
@@ -271,7 +271,7 @@ export const events = {
       registrationFee: 'FREE',
       organisingSociety: 'Enactus',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/case-challenge',
+        'https://commudle.com/communities/encore-2020/events/case-challenge',
       poster: require('../assets/events/case-vista.jpeg'),
       description: (
         <p>
@@ -296,8 +296,8 @@ export const events = {
       registrationFee: 'TBD',
       organisingSociety: 'ACM',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/think-and-grow-rich',
-      poster: require('../assets/events/placeholder.png'),
+        'https://commudle.com/communities/encore-2020/events/think-and-grow-rich',
+      poster: require('../assets/events/think-grow-rich.jpeg'),
       description: (
         <p>
           Each team will be given a hypothetical scenario and some fixed amount
@@ -309,15 +309,15 @@ export const events = {
     },
     {
       code: 'acm-2',
-      name: 'Meme Making',
+      name: 'Meme Wars',
       date: '3rd October',
       team: '1 member',
       prize: 'TBD',
       registrationFee: 'TBD',
       organisingSociety: 'ACM',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/meme-making',
-      poster: require('../assets/events/placeholder.png'),
+        'https://commudle.com/communities/encore-2020/events/meme-making',
+      poster: require('../assets/events/meme-wars.jpeg'),
       description: (
         <p>
           Each team will have to work to come up with a meme either by making
@@ -336,7 +336,7 @@ export const events = {
       registrationFee: 'TBD',
       organisingSociety: 'ACM',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/3-video-editing',
+        'https://commudle.com/communities/encore-2020/events/3-video-editing',
       poster: require('../assets/events/placeholder.png'),
       description: (
         <p>
@@ -358,7 +358,7 @@ export const events = {
       registrationFee: <>{Rs()} 50</>,
       organisingSociety: 'EDC',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/1-auction-ideathon',
+        'https://commudle.com/communities/encore-2020/events/1-auction-ideathon',
       poster: require('../assets/events/auction-ideathon.jpeg'),
       description: (
         <p>
@@ -381,7 +381,7 @@ export const events = {
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'EDC',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/web-series-quiz',
+        'https://commudle.com/communities/encore-2020/events/web-series-quiz',
       poster: require('../assets/events/binge-mania.jpeg'),
       description: (
         <p>
@@ -399,7 +399,7 @@ export const events = {
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'EDC',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/business-quiz',
+        'https://commudle.com/communities/encore-2020/events/business-quiz',
       poster: require('../assets/events/business-quiz.jpeg'),
       description: (
         <p>
@@ -420,7 +420,7 @@ export const events = {
       registrationFee: <>{Rs()} 50</>,
       organisingSociety: 'AURA',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/solo-dance',
+        'https://commudle.com/communities/encore-2020/events/solo-dance',
       poster: require('../assets/events/rangmanch.jpeg'),
       description: (
         <div>
@@ -486,7 +486,7 @@ export const events = {
       registrationFee: 'TBD',
       organisingSociety: 'ISA',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/technical-ideathon',
+        'https://commudle.com/communities/encore-2020/events/technical-ideathon',
       poster: require('../assets/events/placeholder.png'),
       description: (
         <p>
@@ -512,7 +512,7 @@ export const events = {
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'AAGAAZ',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/music-trivia',
+        'https://commudle.com/communities/encore-2020/events/music-trivia',
       poster: require('../assets/events/music-trivia.jpeg'),
       description: (
         <p>
@@ -540,7 +540,7 @@ export const events = {
       registrationFee: 'TBD',
       organisingSociety: 'BVPCSI',
       registrationLink:
-        'https://commudle.com/communities/digital-arts-society/events/quizzing-event',
+        'https://commudle.com/communities/encore-2020/events/quizzing-event',
       poster: require('../assets/events/placeholder.png'),
       description: (
         <p>

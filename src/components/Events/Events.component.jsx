@@ -6,8 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 import image1 from '../../assets/events/auction-ideathon.jpeg';
-import image2 from '../../assets/events/music-trivia.jpeg';
-import image3 from '../../assets/events/binge-mania.jpeg';
+import image2 from '../../assets/events/meme-wars.jpeg';
+import image3 from '../../assets/events/rangmanch.jpeg';
+import image4 from '../../assets/events/music-trivia.jpeg';
+import image5 from '../../assets/events/binge-mania.jpeg';
+import image6 from '../../assets/events/macro-photography.jpeg';
 
 import './Events.styles.scss';
 
@@ -43,6 +46,21 @@ const Events = ({ history }) => {
               <Fade bottom delay={250}>
                 <div className='poster'>
                   <img src={image3} alt='event' />
+                </div>
+              </Fade>
+              <Fade bottom delay={150}>
+                <div className='poster'>
+                  <img src={image4} alt='event' />
+                </div>
+              </Fade>
+              <Fade bottom delay={200}>
+                <div className='poster'>
+                  <img src={image5} alt='event' />
+                </div>
+              </Fade>
+              <Fade bottom delay={250}>
+                <div className='poster'>
+                  <img src={image6} alt='event' />
                 </div>
               </Fade>
             </div>
