@@ -2,7 +2,7 @@ export const partners = [
   {
     key: '1',
     name: 'Placeholder 1',
-    image: require('../assets/partners/partner-placeholder.png')
+    image: require('../assets/partners/sponsor-1.jpeg')
   },
   {
     key: '2',

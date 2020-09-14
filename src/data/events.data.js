@@ -3,6 +3,10 @@ import React from 'react';
 const Rs = () => <span className='rupee-symbol'>₹</span>;
 
 export const eventsList = [
+  // {
+  //   code: 'das-1',
+  //   name: 'Bizzare Photography'
+  // },
   {
     code: 'das-1',
     name: 'Lockdown Photojournalism'
@@ -18,6 +22,10 @@ export const eventsList = [
   {
     code: 'das-4',
     name: 'Your Best Shot'
+  },
+  {
+    code: 'enactus-1',
+    name: 'Case Vista'
   },
   {
     code: 'acm-1',
@@ -37,7 +45,7 @@ export const eventsList = [
   },
   {
     code: 'edc-2',
-    name: 'Web Series Quiz'
+    name: 'Binge Mania'
   },
   {
     code: 'edc-3',
@@ -79,7 +87,7 @@ export const events = {
       organisingSociety: 'DAS',
       registrationLink:
         'https://commudle.com/communities/digital-arts-society/events/lockdown-photojournalism',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/lockdown-photojournalism.jpeg'),
       description: (
         <div>
           <p>
@@ -131,7 +139,7 @@ export const events = {
       organisingSociety: 'DAS',
       registrationLink:
         'https://commudle.com/communities/digital-arts-society/events/macro-photography',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/macro-photography.jpeg'),
       description: (
         <div>
           <p>
@@ -221,7 +229,7 @@ export const events = {
       organisingSociety: 'DAS',
       registrationLink:
         'https://commudle.com/communities/digital-arts-society/events/your-best-shot',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/your-best-shot.jpeg'),
       description: (
         <div>
           <p>
@@ -256,7 +264,7 @@ export const events = {
   enactus: [
     {
       code: 'enactus-1',
-      name: 'Case Challenge',
+      name: 'Case-Vista',
       date: '3rd October',
       team: '3-5 members',
       prize: <>{Rs()} 2000</>,
@@ -264,10 +272,10 @@ export const events = {
       organisingSociety: 'Enactus',
       registrationLink:
         'https://commudle.com/communities/digital-arts-society/events/case-challenge',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/case-vista.jpeg'),
       description: (
         <p>
-          Enactus BVCOE is planning to conduct a 'Case Challenge', wherein
+          Enactus BVCOE is planning to conduct a 'Case-Vista', wherein
           students of various colleges and other Enactus teams can showcase
           their analytical skills and entrepreneurial abilities. The case study
           will entail a real-life situation, the solutions of which shall be
@@ -351,7 +359,7 @@ export const events = {
       organisingSociety: 'EDC',
       registrationLink:
         'https://commudle.com/communities/digital-arts-society/events/1-auction-ideathon',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/auction-ideathon.jpeg'),
       description: (
         <p>
           In this event, the students would face preliminary quizzing round in
@@ -366,7 +374,7 @@ export const events = {
     },
     {
       code: 'edc-2',
-      name: 'Web Series Quiz',
+      name: 'Binge Mania',
       date: '3rd October',
       team: '1 member',
       prize: 'TBD',
@@ -374,7 +382,7 @@ export const events = {
       organisingSociety: 'EDC',
       registrationLink:
         'https://commudle.com/communities/digital-arts-society/events/web-series-quiz',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/binge-mania.jpeg'),
       description: (
         <p>
           In this event, the participants would have to choose the right answer
@@ -392,7 +400,7 @@ export const events = {
       organisingSociety: 'EDC',
       registrationLink:
         'https://commudle.com/communities/digital-arts-society/events/business-quiz',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/business-quiz.jpeg'),
       description: (
         <p>
           The team would have to guess the company name based on the clue
@@ -413,7 +421,7 @@ export const events = {
       organisingSociety: 'AURA',
       registrationLink:
         'https://commudle.com/communities/digital-arts-society/events/solo-dance',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/rangmanch.jpeg'),
       description: (
         <div>
           <p className='sub-heading'>
@@ -505,7 +513,7 @@ export const events = {
       organisingSociety: 'AAGAAZ',
       registrationLink:
         'https://commudle.com/communities/digital-arts-society/events/music-trivia',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/music-trivia.jpeg'),
       description: (
         <p>
           Want to prove you have the best taste in music to your friends while

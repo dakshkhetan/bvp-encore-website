@@ -5,7 +5,9 @@ import { withRouter } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
-import image from '../../assets/events/placeholder.png';
+import image1 from '../../assets/events/auction-ideathon.jpeg';
+import image2 from '../../assets/events/music-trivia.jpeg';
+import image3 from '../../assets/events/binge-mania.jpeg';
 
 import './Events.styles.scss';
 
@@ -30,17 +32,17 @@ const Events = ({ history }) => {
             <div className='posters-container'>
               <Fade bottom delay={150}>
                 <div className='poster'>
-                  <img src={image} alt='event' />
+                  <img src={image1} alt='event' />
                 </div>
               </Fade>
               <Fade bottom delay={200}>
                 <div className='poster'>
-                  <img src={image} alt='event' />
+                  <img src={image2} alt='event' />
                 </div>
               </Fade>
               <Fade bottom delay={250}>
                 <div className='poster'>
-                  <img src={image} alt='event' />
+                  <img src={image3} alt='event' />
                 </div>
               </Fade>
             </div>
