@@ -3,24 +3,24 @@ import React from 'react';
 const Rs = () => <span className='rupee-symbol'>₹</span>;
 
 export const eventsList = [
-  // {
-  //   code: 'das-1',
-  //   name: 'Bizzare Photography'
-  // },
   {
     code: 'das-1',
-    name: 'Lockdown Photojournalism'
+    name: 'Bizzare Photography'
   },
   {
     code: 'das-2',
-    name: 'Macro Photography'
+    name: 'Lockdown Photojournalism'
   },
   {
     code: 'das-3',
-    name: 'Light Painting'
+    name: 'Macro Photography'
   },
   {
     code: 'das-4',
+    name: 'Light Painting'
+  },
+  {
+    code: 'das-5',
     name: 'Your Best Shot'
   },
   {
@@ -73,6 +73,43 @@ export const events = {
   das: [
     {
       code: 'das-1',
+      name: 'Bizzare Photography',
+      date: '3rd & 4th October',
+      team: '1 member',
+      prize: (
+        <span className='prize-money'>
+          <span className='underline'>{Rs()} 1000 (1st Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 200 (2nd Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 100 (3rd Prize)</span>
+        </span>
+      ),
+      registrationFee: 'FREE',
+      organisingSociety: 'DAS',
+      registrationLink:
+        'https://commudle.com/communities/encore-2020/events/bizzare-photography',
+      poster: require('../assets/events/bizzare-photography.jpeg'),
+      description: (
+        <div>
+          <p>
+            DAS-BVP brings competion called 'Bizzare Photography' (yes, you read
+            it correct) at the ENCORE FEST an online fest on 3rd and 4th
+            October, 2020.
+            <br />
+            In this competion you have to send the most beautifully Bizzare pic
+            which you have ever clicked.
+          </p>
+          <ul>
+            <li>No registration fee.</li>
+            <li>Cash prizes worth Rs. 1300+.</li>
+            <li>All participants will receive certificates.</li>
+          </ul>
+        </div>
+      )
+    },
+    {
+      code: 'das-2',
       name: 'Lockdown Photojournalism',
       date: '3rd October',
       team: '1 member',
@@ -124,7 +161,7 @@ export const events = {
       )
     },
     {
-      code: 'das-2',
+      code: 'das-3',
       name: 'Macro Photography',
       date: '3rd October',
       team: '1 member',
@@ -166,7 +203,7 @@ export const events = {
       )
     },
     {
-      code: 'das-3',
+      code: 'das-4',
       name: 'Light Painting',
       date: '3rd October',
       team: '1 member',
@@ -181,7 +218,7 @@ export const events = {
       organisingSociety: 'DAS',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/light-painting',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/light-painting.jpeg'),
       description: (
         <div>
           <p>
@@ -214,7 +251,7 @@ export const events = {
       )
     },
     {
-      code: 'das-4',
+      code: 'das-5',
       name: 'Your Best Shot',
       date: '3rd October',
       team: '1 member',
@@ -275,10 +312,10 @@ export const events = {
       poster: require('../assets/events/case-vista.jpeg'),
       description: (
         <p>
-          Enactus BVCOE is planning to conduct a 'Case-Vista', wherein
-          students of various colleges and other Enactus teams can showcase
-          their analytical skills and entrepreneurial abilities. The case study
-          will entail a real-life situation, the solutions of which shall be
+          Enactus BVCOE is planning to conduct a 'Case-Vista', wherein students
+          of various colleges and other Enactus teams can showcase their
+          analytical skills and entrepreneurial abilities. The case study will
+          entail a real-life situation, the solutions of which shall be
           presented by the different teams. The preliminary round will help us
           find the best teams, who will then be judged based on their skills in
           the second round.
@@ -329,7 +366,7 @@ export const events = {
     },
     {
       code: 'acm-3',
-      name: 'Video Editing',
+      name: 'Video Editing Contest',
       date: '4th October',
       team: '3 members',
       prize: 'TBD',
@@ -337,7 +374,7 @@ export const events = {
       organisingSociety: 'ACM',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/3-video-editing',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/video-editing.jpeg'),
       description: (
         <p>
           Each team must put together a short trailer for a Netflix show/movie
@@ -487,7 +524,7 @@ export const events = {
       organisingSociety: 'ISA',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/technical-ideathon',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/technical-ideathon.jpeg'),
       description: (
         <p>
           There will be 3-4 rounds in which the teams would be given a theme for
