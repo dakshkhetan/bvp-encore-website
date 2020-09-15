@@ -65,7 +65,7 @@ export const eventsList = [
   },
   {
     code: 'csi-1',
-    name: 'Quizzing Event'
+    name: 'Quizzi-QAL'
   }
 ];
 
@@ -533,7 +533,7 @@ export const events = {
   bvpcsi: [
     {
       code: 'csi-1',
-      name: 'Quizzing Event',
+      name: 'Quizzi-Qal',
       date: '3rd October',
       team: '1-3 members',
       prize: 'TBD',
@@ -541,7 +541,7 @@ export const events = {
       organisingSociety: 'BVPCSI',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/quizzing-event',
-      poster: require('../assets/events/placeholder.png'),
+      poster: require('../assets/events/quizzi-qal.jpeg'),
       description: (
         <p>
           For all the enthusiastic quizzers out there, we will organise a fun
