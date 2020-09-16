@@ -120,7 +120,7 @@ export const events = {
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
-      registrationFee: 'FREE',
+      registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'DAS',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/lockdown-photojournalism',
@@ -172,7 +172,7 @@ export const events = {
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
-      registrationFee: 'FREE',
+      registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'DAS',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/macro-photography',
@@ -214,7 +214,7 @@ export const events = {
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
-      registrationFee: 'FREE',
+      registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'DAS',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/light-painting',
@@ -262,7 +262,7 @@ export const events = {
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
-      registrationFee: 'FREE',
+      registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'DAS',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/your-best-shot',
