@@ -57,7 +57,7 @@ export const eventsList = [
   },
   {
     code: 'isa-1',
-    name: 'Technical Ideathon'
+    name: 'Ideathon'
   },
   {
     code: 'aagaaz-1',
@@ -329,8 +329,14 @@ export const events = {
       name: 'Think and Grow Rich',
       date: '3rd & 4th October',
       team: '4 members',
-      prize: 'TBD',
-      registrationFee: 'TBD',
+      prize: (
+        <span className='prize-money'>
+          <span className='underline'>{Rs()} 1000 (1st Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 500 (2nd Prize)</span>
+        </span>
+      ),
+      registrationFee: <>{Rs()} 20</>,
       organisingSociety: 'ACM',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/think-and-grow-rich',
@@ -340,7 +346,8 @@ export const events = {
           Each team will be given a hypothetical scenario and some fixed amount
           of hypothetical money and they’ll have to think, innovate and
           implement their skills in marketing and business to devise a lucrative
-          and feasible business model within a specified amount of time.
+          and feasible business model within a specified amount of time.{' '}
+          <b>Appreciation Certificates</b> will also be provided.
         </p>
       )
     },
@@ -349,8 +356,14 @@ export const events = {
       name: 'Meme Wars',
       date: '3rd October',
       team: '1 member',
-      prize: 'TBD',
-      registrationFee: 'TBD',
+      prize: (
+        <span className='prize-money'>
+          <span className='underline'>{Rs()} 350 (1st Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 150 (2nd Prize)</span>
+        </span>
+      ),
+      registrationFee: 'FREE',
       organisingSociety: 'ACM',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/meme-making',
@@ -360,7 +373,7 @@ export const events = {
           Each team will have to work to come up with a meme either by making
           their own original meme template or by using an existing one within a
           specified period. The meme that clearly expresses the theme will be
-          the winner.
+          the winner. <b>Appreciation Certificates</b> will also be provided.
         </p>
       )
     },
@@ -369,8 +382,14 @@ export const events = {
       name: 'Video Editing Contest',
       date: '4th October',
       team: '3 members',
-      prize: 'TBD',
-      registrationFee: 'TBD',
+      prize: (
+        <span className='prize-money'>
+          <span className='underline'>{Rs()} 700 (1st Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 500 (2nd Prize)</span>
+        </span>
+      ),
+      registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'ACM',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/3-video-editing',
@@ -380,7 +399,8 @@ export const events = {
           Each team must put together a short trailer for a Netflix show/movie
           within a specified amount of time. The genre will be provided on the
           spot. The team that creates most intriguing, imaginative and original
-          trailer will be the winner.
+          trailer will be the winner. <b>Appreciation Certificates</b> will also
+          be provided.
         </p>
       )
     }
@@ -508,7 +528,7 @@ export const events = {
   isa: [
     {
       code: 'isa-1',
-      name: 'Technical Ideathon',
+      name: 'Ideathon',
       date: '3rd October',
       team: '3-4 members',
       prize: (
@@ -524,7 +544,7 @@ export const events = {
       organisingSociety: 'ISA',
       registrationLink:
         'https://commudle.com/communities/encore-2020/events/technical-ideathon',
-      poster: require('../assets/events/technical-ideathon.jpeg'),
+      poster: require('../assets/events/ideathon.jpeg'),
       description: (
         <p>
           There will be 3-4 rounds in which the teams would be given a theme for
