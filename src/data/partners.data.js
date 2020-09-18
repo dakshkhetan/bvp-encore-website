@@ -1,18 +1,18 @@
 export const partners = [
   {
     key: '1',
-    name: 'Placeholder 1',
-    image: require('../assets/partners/sponsor-1.jpeg')
+    name: 'Pixa Hive',
+    image: require('../assets/partners/partner-1.jpeg')
   },
   {
     key: '2',
-    name: 'Placeholder 2',
-    image: require('../assets/partners/partner-placeholder.png')
+    name: 'Commudle',
+    image: require('../assets/partners/partner-2.jpeg')
   },
   {
     key: '3',
-    name: 'Placeholder 3',
-    image: require('../assets/partners/partner-placeholder.png')
+    name: 'IPU Buzz',
+    image: require('../assets/partners/partner-3.jpeg')
   },
   {
     key: '4',
