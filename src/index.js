@@ -13,6 +13,7 @@ import Home from './pages/Home/Home';
 import Events from './pages/Events/Events';
 import Society from './components/Society/Society.component';
 import Partners from './components/Partners/Partners.component';
+import Partner from './components/Partner/Partner.component';
 import Team from './components/Team/Team.component';
 import FAQs from './components/FAQs/FAQs.component';
 import Contact from './components/Contact/Contact.component';
@@ -36,6 +37,7 @@ const Root = () => (
       <Route path='/team' component={Team} />
       <Route path='/contact' component={Contact} />
       <Route path='/society/:societyName' component={Society} />
+      <Route path='/partner/:partnerName' component={Partner} />
       <Redirect to='/' />
     </Switch>
     <Footer />

@@ -20,11 +20,18 @@
       margin-top: 30px;
 
       .partner-image {
+        cursor: pointer;
 
         img {
           width: 300px;
           height: 200px;
           border: 3px solid #539dfe;
+          transition: all ease-in-out 0.2s;
+
+          &:hover {
+            border: 3px solid darken(#539dfe, 20%);
+            transition: all ease-in-out 0.2s;
+          }
         }
       }
     }

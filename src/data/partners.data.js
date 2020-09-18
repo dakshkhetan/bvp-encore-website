@@ -1,32 +1,53 @@
 export const partners = [
   {
     key: '1',
-    name: 'Pixa Hive',
-    image: require('../assets/partners/partner-1.jpeg')
+    route: 'pixahive',
+    name: 'PixaHive',
+    website: 'https://pixahive.com',
+    image: require('../assets/partners/partner-1.jpeg'),
+    description:
+      'PixaHive help photographers build a portoflio to impress and get jobs. This platfom also help users and small business get high-quality images for free.'
   },
   {
     key: '2',
+    route: 'commudle',
     name: 'Commudle',
-    image: require('../assets/partners/partner-2.jpeg')
+    website: 'https://commudle.com',
+    image: require('../assets/partners/partner-2.jpeg'),
+    description:
+      'This is a community management platform for Tech Communities across the world. The inspiration being the personal experiences of Community Organizers.'
   },
   {
     key: '3',
+    route: 'ipubuzz',
     name: 'IPU Buzz',
-    image: require('../assets/partners/partner-3.jpeg')
+    website: 'https://ipubuzz.com',
+    image: require('../assets/partners/partner-3.jpeg'),
+    description:
+      "IPU Buzz is GGSIPU's Largest Student-Run Media Platform. Started in 2018, IPU BUZZ is an independent news and media space run by a team of students. From the day we started, it was our aim to bring a cultural transformation in Guru Gobind Singh Indraprastha University (GGSIPU). From all the happenings around the university to all the concerns pertaining to the students, we cover it all."
   },
   {
     key: '4',
+    route: '',
     name: 'Placeholder 4',
-    image: require('../assets/partners/partner-placeholder.png')
+    website: '',
+    image: require('../assets/partners/partner-placeholder.png'),
+    description: ''
   },
   {
     key: '5',
+    route: '',
     name: 'Placeholder 5',
-    image: require('../assets/partners/partner-placeholder.png')
+    website: '',
+    image: require('../assets/partners/partner-placeholder.png'),
+    description: ''
   },
   {
     key: '6',
+    route: '',
     name: 'Placeholder 6',
-    image: require('../assets/partners/partner-placeholder.png')
+    website: '',
+    image: require('../assets/partners/partner-placeholder.png'),
+    description: ''
   }
 ];
