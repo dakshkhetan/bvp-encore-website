@@ -66,6 +66,10 @@ export const eventsList = [
   {
     code: 'csi-1',
     name: 'Quizzi-QAL'
+  },
+  {
+    code: 'anon-1',
+    name: 'Encore Unplugged'
   }
 ];
 
@@ -605,6 +609,66 @@ export const events = {
           and interesting quiz based on a variety of topics. People can
           participate individually or in groups of 2 or 3 members.
         </p>
+      )
+    }
+  ],
+  anon: [
+    {
+      code: 'anon-1',
+      name: 'Encore Unplugged',
+      date: '3rd October',
+      team: '1 member',
+      prize: 'TBD',
+      registrationFee: <>{Rs()} 50</>,
+      organisingSociety: '',
+      registrationLink:
+        'https://commudle.com/communities/encore-2020/events/encore-unplugged',
+      poster: require('../assets/events/encore-unplugged.jpeg'),
+      description: (
+        <div>
+          <p>
+            <em>
+              “What mental health needs is more sunlight, more candour, and more
+              unashamed conversation.”
+            </em>{' '}
+            – Glenn Close
+          </p>
+          <p>Hello, Namaste, Adaab!</p>
+          <p>
+            Things are different. Things are difficult. Human beings -like any
+            other species- are bound to live in a society. This is a necessity
+            for being happy, for being stress free. But today the situation is
+            different. Isolation has become a necessity. Being alone, people are
+            getting depressed, suicidal, anxious, stressed and what not! Reasons
+            may vary but the ultimate point is overthinking.
+          </p>
+          <p className='sub-heading'>
+            <em>Themes:</em>
+          </p>
+          <ul>
+            <li>Lockdown Emotions</li>
+            <li>Mental Health</li>
+          </ul>
+          <p className='sub-heading'>
+            <em>Rules:</em>
+          </p>
+          <ul>
+            <li>Time Limit: 3-5 minutes</li>
+            <li>Content should be original.</li>
+            <li>Bring a friend along to support other performers as well.</li>
+          </ul>
+          <p>
+            <b>Languages Applicable:</b> Hindi, English, Urdu.
+          </p>
+          <p>
+            <b>Last Date for Registration:</b> 28th September
+          </p>
+          <p>
+            Selected candidates will be added to a WhatsApp group by September
+            30 & have to pay the registeration fee latest by October 1 to
+            confirm their slots.
+          </p>
+        </div>
       )
     }
   ]

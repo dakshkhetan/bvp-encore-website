@@ -228,6 +228,25 @@
           }
         }
       }
+
+      &.anon-1 {
+        .info {
+
+          .description {
+
+            p {
+              &.sub-heading {
+                font-weight: 600;
+                margin-bottom: 5px;
+              }
+            }
+
+            ul {
+              margin-bottom: 15px;
+            }
+          }
+        }
+      }
     }
 
     .divider-container {

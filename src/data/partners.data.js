@@ -28,11 +28,12 @@ export const partners = [
   },
   {
     key: '4',
-    route: '',
-    name: 'Placeholder 4',
-    website: '',
-    image: require('../assets/partners/partner-placeholder.png'),
-    description: ''
+    route: 'geeksforgeeks',
+    name: 'GeeksForGeeks',
+    website: 'https://www.geeksforgeeks.org',
+    image: require('../assets/partners/partner-4.jpeg'),
+    description:
+      'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.'
   },
   {
     key: '5',

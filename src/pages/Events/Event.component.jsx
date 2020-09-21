@@ -49,12 +49,14 @@ const Event = ({ event }) => {
               <span className='underline'>{date}</span>
             </p>
           </Fade>
-          <Fade bottom delay={500}>
-            <p>
-              <span>Organising Society: </span>
-              <span className='underline'>{organisingSociety}</span>
-            </p>
-          </Fade>
+          {organisingSociety && (
+            <Fade bottom delay={500}>
+              <p>
+                <span>Organising Society: </span>
+                <span className='underline'>{organisingSociety}</span>
+              </p>
+            </Fade>
+          )}
           <Fade bottom delay={400}>
             <p>
               <span>Team Size: </span>
