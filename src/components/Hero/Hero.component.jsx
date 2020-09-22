@@ -2,7 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 import video from '../../assets/video/teaser.mp4';
-import poster from '../../assets/encore-logo/Logo1-Black.jpg';
+import poster from '../../assets/encore-logo/Logo1-Black.jpeg';
 
 import './Hero.styles.scss';
 

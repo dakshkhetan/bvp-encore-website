@@ -34,21 +34,5 @@ export const partners = [
     image: require('../assets/partners/partner-4.jpeg'),
     description:
       'GeeksForGeeks has been created to provide well written, well thought and well explained solutions for selected questions.'
-  },
-  {
-    key: '5',
-    route: '',
-    name: 'Placeholder 5',
-    website: '',
-    image: require('../assets/partners/partner-placeholder.png'),
-    description: ''
-  },
-  {
-    key: '6',
-    route: '',
-    name: 'Placeholder 6',
-    website: '',
-    image: require('../assets/partners/partner-placeholder.png'),
-    description: ''
   }
 ];
