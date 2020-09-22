@@ -91,8 +91,7 @@ export const events = {
       ),
       registrationFee: 'FREE',
       organisingSociety: 'DAS',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/bizzare-photography',
+      registrationLink: 'https://commudle.com',
       poster: require('../assets/events/bizzare-photography.jpeg'),
       description: (
         <div>
@@ -126,8 +125,7 @@ export const events = {
       ),
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'DAS',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/lockdown-photojournalism',
+      registrationLink: 'https://forms.gle/EqcYLnEGEoMoYqjP7',
       poster: require('../assets/events/lockdown-photojournalism.jpeg'),
       description: (
         <div>
@@ -139,12 +137,14 @@ export const events = {
             Click a photo depicting lockdown in India and write an article up to
             150 words with your clicked shot as your theme.
           </p>
-          <div className='expand'>
+          <div>
             <p>
               <b>Entry Submission: 3rd October</b>
             </p>
             <ul>
-              <li>Picture resolution should be greater than 1280 X 720 p.</li>
+              <li>
+                Picture resolution should be greater than 1280 X 720 pixels.
+              </li>
               <li>Size should be greater than 2 MB.</li>
               <li>Shot clicked in 2020 would be considered a valid entry.</li>
               <li>Your shot should be original.</li>
@@ -157,7 +157,8 @@ export const events = {
                 proper opening and ending.
               </li>
               <li>
-                Light editing is allowed (colour correction, cropping only).
+                Photo editing is allowed to a little extent (color correction,
+                cropping only).
               </li>
             </ul>
           </div>
@@ -178,8 +179,7 @@ export const events = {
       ),
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'DAS',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/macro-photography',
+      registrationLink: 'https://forms.gle/XXRKAUC349yzdhBg9',
       poster: require('../assets/events/macro-photography.jpeg'),
       description: (
         <div>
@@ -192,13 +192,15 @@ export const events = {
             <b>Entry Submission: 3rd October</b>
           </p>
           <ul>
-            <li>Picture resolution should be greater than 1280 X 720 p.</li>
+            <li>
+              Picture resolution should be greater than 1280 X 720 pixels.
+            </li>
             <li>Size should be greater than 2 MB.</li>
-            <li>Shot clicked in 2020 would be considered a valid entry.</li>
             <li>Your shot should be original.</li>
             <li>No screenshots are allowed.</li>
             <li>
-              Light editing is allowed (colour correction, cropping only).
+              Photo editing is allowed to a little extent (color correction,
+              cropping only).
             </li>
             <li>Extra points for providing behind the scenes video.</li>
             <li>Idea should be innovative.</li>
@@ -220,8 +222,7 @@ export const events = {
       ),
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'DAS',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/light-painting',
+      registrationLink: 'https://forms.gle/RZ23PDMV52eRE6Q6A',
       poster: require('../assets/events/light-painting.jpeg'),
       description: (
         <div>
@@ -240,16 +241,18 @@ export const events = {
             <b>Entry Submission: 3rd October</b>
           </p>
           <ul>
-            <li>Picture resolution should be greater than 1280 X 720 p.</li>
+            <li>
+              Picture resolution should be greater than 1280 X 720 pixels.
+            </li>
             <li>Size should be greater than 2 MB.</li>
-            <li>Shot clicked in 2020 would be considered a valid entry.</li>
             <li>Your shot should be original.</li>
             <li>No screenshots are allowed.</li>
-            <li>Product should be visible.</li>
             <li>
-              Light editing is allowed (colour correction, cropping only).
+              Photo editing is allowed to a little extent (color correction,
+              cropping only).
             </li>
             <li>Extra points for providing behind the scenes video.</li>
+            <li>Idea should be innovative.</li>
           </ul>
         </div>
       )
@@ -268,8 +271,7 @@ export const events = {
       ),
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'DAS',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/your-best-shot',
+      registrationLink: 'https://forms.gle/6w8eL9AoSjxmB1aq5',
       poster: require('../assets/events/your-best-shot.jpeg'),
       description: (
         <div>
@@ -282,21 +284,18 @@ export const events = {
             <b>Entry Submission: 3rd October</b>
           </p>
           <ul>
-            <li>Picture resolution should be greater than 1280 X 720 p.</li>
+            <li>
+              Picture resolution should be greater than 1280 X 720 pixels.
+            </li>
             <li>Size should be greater than 2 MB.</li>
-            <li>Shot clicked in 2020 would be considered a valid entry.</li>
             <li>Your shot should be original.</li>
             <li>No screenshots are allowed.</li>
-            <li>No restrictions on editing.</li>
             <li>
-              Top 10 shots out of all would be featured on our story and the
-              best out of all which would be selected by the audience would be
-              awarded.
+              Photo editing is allowed to a little extent (color correction,
+              cropping only).
             </li>
-            <li>
-              Light editing is allowed (colour correction, cropping only).
-            </li>
-            <li>Each like comment and share will be counted.</li>
+            <li>Extra points for providing behind the scenes video.</li>
+            <li>Idea should be innovative.</li>
           </ul>
         </div>
       )
@@ -312,7 +311,7 @@ export const events = {
       registrationFee: 'FREE',
       organisingSociety: 'Enactus',
       registrationLink:
-        'https://commudle.com/communities/encore-2020/events/case-challenge',
+        'https://docs.google.com/forms/d/e/1FAIpQLSflsZYw3nu1SyOMAPGnezoD3wy2mPUMhyESiLSNxoZAwnFJzQ/viewform?usp=sf_link',
       poster: require('../assets/events/case-vista.jpeg'),
       description: (
         <p>
@@ -342,8 +341,7 @@ export const events = {
       ),
       registrationFee: <>{Rs()} 20</>,
       organisingSociety: 'ACM',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/think-and-grow-rich',
+      registrationLink: 'https://forms.gle/YmxeVK1mZLxSxTjr6',
       poster: require('../assets/events/think-grow-rich.jpeg'),
       description: (
         <p>
@@ -369,8 +367,7 @@ export const events = {
       ),
       registrationFee: 'FREE',
       organisingSociety: 'ACM',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/meme-making',
+      registrationLink: 'https://forms.gle/eHUmbXBEGCwMPJ1n7',
       poster: require('../assets/events/meme-wars.jpeg'),
       description: (
         <p>
@@ -396,7 +393,7 @@ export const events = {
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'ACM',
       registrationLink:
-        'https://commudle.com/communities/encore-2020/events/3-video-editing',
+        'https://docs.google.com/forms/d/e/1FAIpQLSfKmC5_aL8pzukK9Z0cVAjBjpKEchzgW1qVUYWs3O7P-uSkOQ/viewform?usp=sf_link',
       poster: require('../assets/events/video-editing.jpeg'),
       description: (
         <p>
@@ -415,11 +412,10 @@ export const events = {
       name: 'Auction Ideathon',
       date: '3rd & 4th October',
       team: '1-3 members',
-      prize: 'TBD',
+      prize: <>{Rs()} 1000</>,
       registrationFee: <>{Rs()} 50</>,
       organisingSociety: 'EDC',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/1-auction-ideathon',
+      registrationLink: 'https://forms.gle/UTE1U8z8y3SHWSQQ9',
       poster: require('../assets/events/auction-ideathon.jpeg'),
       description: (
         <p>
@@ -438,11 +434,10 @@ export const events = {
       name: 'Binge Mania',
       date: '3rd October',
       team: '1 member',
-      prize: 'TBD',
+      prize: <>{Rs()} 700</>,
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'EDC',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/web-series-quiz',
+      registrationLink: 'https://forms.gle/hTttGVJjNLJN4aPW9',
       poster: require('../assets/events/binge-mania.jpeg'),
       description: (
         <p>
@@ -455,12 +450,19 @@ export const events = {
       code: 'edc-3',
       name: 'Business Quiz',
       date: '4th October',
-      team: '1-2 members',
-      prize: 'TBD',
+      team: '1 member',
+      prize: (
+        <span className='prize-money'>
+          <span className='underline'>{Rs()} 400 (1st Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 200 (2nd Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 100 (3rd Prize)</span>
+        </span>
+      ),
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'EDC',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/business-quiz',
+      registrationLink: 'https://forms.gle/5abGBdi59aFtp3MXA',
       poster: require('../assets/events/business-quiz.jpeg'),
       description: (
         <p>
@@ -480,8 +482,7 @@ export const events = {
       prize: <>{Rs()} 2000</>,
       registrationFee: <>{Rs()} 50</>,
       organisingSociety: 'AURA',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/solo-dance',
+      registrationLink: 'https://forms.gle/g75wdJ8rTWwUtvQeA',
       poster: require('../assets/events/rangmanch.jpeg'),
       description: (
         <div>
@@ -572,8 +573,7 @@ export const events = {
       prize: <>{Rs()} 500</>,
       registrationFee: <>{Rs()} 30</>,
       organisingSociety: 'AAGAAZ',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/music-trivia',
+      registrationLink: 'https://forms.gle/Rc6oxExDN4rVQryHA',
       poster: require('../assets/events/music-trivia.jpeg'),
       description: (
         <p>
@@ -621,8 +621,7 @@ export const events = {
       prize: 'TBD',
       registrationFee: <>{Rs()} 50</>,
       organisingSociety: '',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/encore-unplugged',
+      registrationLink: 'https://forms.gle/qiLZBE1ptkfh3du99',
       poster: require('../assets/events/encore-unplugged.jpeg'),
       description: (
         <div>
@@ -658,7 +657,10 @@ export const events = {
             <li>Bring a friend along to support other performers as well.</li>
           </ul>
           <p>
-            <b>Languages Applicable:</b> Hindi, English, Urdu.
+            <b>No language barrier!</b>
+          </p>
+          <p>
+            <b>Free for Audience</b>
           </p>
           <p>
             <b>Last Date for Registration:</b> 28th September
