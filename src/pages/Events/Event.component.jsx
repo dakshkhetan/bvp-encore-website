@@ -78,12 +78,16 @@ const Event = ({ event }) => {
           <Fade bottom delay={600}>
             <p>
               <span>To Register: </span>
-              <span
-                className='register-link'
-                onClick={onClickHandler(name, registrationLink)}
-              >
-                Click here
-              </span>
+              {registrationLink ? (
+                <span
+                  className='register-link'
+                  onClick={onClickHandler(name, registrationLink)}
+                >
+                  Click here
+                </span>
+              ) : (
+                <span className='register-link'>Opening Soon!</span>
+              )}
             </p>
           </Fade>
         </div>

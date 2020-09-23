@@ -74,6 +74,15 @@ const Events = ({ history }) => {
             <h2 className='text'>and many more...</h2>
           </Fade>
 
+          <Fade bottom delay={300}>
+            <p className='promo-text'>
+              <em>
+                When you register, you'll get a ₹300 GeeksForGeeks Hotel
+                Voucher!
+              </em>
+            </p>
+          </Fade>
+
           <Fade bottom delay={350}>
             <div className='btn-container'>
               <span className='btn-link' onClick={onClickHandler}>

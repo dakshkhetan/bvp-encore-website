@@ -91,7 +91,7 @@ export const events = {
       ),
       registrationFee: 'FREE',
       organisingSociety: 'DAS',
-      registrationLink: 'https://commudle.com',
+      registrationLink: '',
       poster: require('../assets/events/bizzare-photography.jpeg'),
       description: (
         <div>
@@ -108,6 +108,9 @@ export const events = {
             <li>Cash prizes worth Rs. 1300+.</li>
             <li>All participants will receive certificates.</li>
           </ul>
+          <p style={{ textAlign: 'left', margin: '10px 0 0' }}>
+            <b>Registrations opening on 26th September!</b>
+          </p>
         </div>
       )
     },
@@ -545,10 +548,9 @@ export const events = {
           <span className='underline'>{Rs()} 500 (3rd Prize)</span>
         </span>
       ),
-      registrationFee: 'TBD',
+      registrationFee: <>{Rs()} 80</>,
       organisingSociety: 'ISA',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/technical-ideathon',
+      registrationLink: '',
       poster: require('../assets/events/ideathon.jpeg'),
       description: (
         <p>
@@ -600,8 +602,7 @@ export const events = {
       prize: 'TBD',
       registrationFee: 'TBD',
       organisingSociety: 'BVPCSI',
-      registrationLink:
-        'https://commudle.com/communities/encore-2020/events/quizzing-event',
+      registrationLink: '',
       poster: require('../assets/events/quizzi-qal.jpeg'),
       description: (
         <p>
