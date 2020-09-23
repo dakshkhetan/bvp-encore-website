@@ -77,8 +77,8 @@ const Events = ({ history }) => {
           <Fade bottom delay={300}>
             <p className='promo-text'>
               <em>
-                When you register, you'll get a ₹300 GeeksForGeeks Hotel
-                Voucher!
+                When you register, you'll get a ₹300 GeeksForGeeks course
+                voucher!
               </em>
             </p>
           </Fade>
