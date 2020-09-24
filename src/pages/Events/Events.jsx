@@ -49,8 +49,8 @@ const Events = () => {
             </div>
           </Fade>
 
-          {mapEventComponent(events.das)}
           {mapEventComponent(events.enactus)}
+          {mapEventComponent(events.das)}
           {mapEventComponent(events.acm)}
           {mapEventComponent(events.edc)}
           {mapEventComponent(events.aura)}

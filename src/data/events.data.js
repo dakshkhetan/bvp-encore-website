@@ -4,6 +4,10 @@ const Rs = () => <span className='rupee-symbol'>₹</span>;
 
 export const eventsList = [
   {
+    code: 'enactus-1',
+    name: 'Case Vista'
+  },
+  {
     code: 'das-1',
     name: 'Bizzare Photography'
   },
@@ -22,10 +26,6 @@ export const eventsList = [
   {
     code: 'das-5',
     name: 'Your Best Shot'
-  },
-  {
-    code: 'enactus-1',
-    name: 'Case Vista'
   },
   {
     code: 'acm-1',
@@ -74,6 +74,31 @@ export const eventsList = [
 ];
 
 export const events = {
+  enactus: [
+    {
+      code: 'enactus-1',
+      name: 'Case-Vista',
+      date: '3rd October',
+      team: '3-5 members',
+      prize: <>{Rs()} 2000</>,
+      registrationFee: 'FREE',
+      organisingSociety: 'Enactus',
+      registrationLink:
+        'https://docs.google.com/forms/d/e/1FAIpQLSflsZYw3nu1SyOMAPGnezoD3wy2mPUMhyESiLSNxoZAwnFJzQ/viewform?usp=sf_link',
+      poster: require('../assets/events/case-vista.jpeg'),
+      description: (
+        <p>
+          Enactus BVCOE is planning to conduct a 'Case-Vista', wherein students
+          of various colleges and other Enactus teams can showcase their
+          analytical skills and entrepreneurial abilities. The case study will
+          entail a real-life situation, the solutions of which shall be
+          presented by the different teams. The preliminary round will help us
+          find the best teams, who will then be judged based on their skills in
+          the second round.
+        </p>
+      )
+    }
+  ],
   das: [
     {
       code: 'das-1',
@@ -301,31 +326,6 @@ export const events = {
             <li>Idea should be innovative.</li>
           </ul>
         </div>
-      )
-    }
-  ],
-  enactus: [
-    {
-      code: 'enactus-1',
-      name: 'Case-Vista',
-      date: '3rd October',
-      team: '3-5 members',
-      prize: <>{Rs()} 2000</>,
-      registrationFee: 'FREE',
-      organisingSociety: 'Enactus',
-      registrationLink:
-        'https://docs.google.com/forms/d/e/1FAIpQLSflsZYw3nu1SyOMAPGnezoD3wy2mPUMhyESiLSNxoZAwnFJzQ/viewform?usp=sf_link',
-      poster: require('../assets/events/case-vista.jpeg'),
-      description: (
-        <p>
-          Enactus BVCOE is planning to conduct a 'Case-Vista', wherein students
-          of various colleges and other Enactus teams can showcase their
-          analytical skills and entrepreneurial abilities. The case study will
-          entail a real-life situation, the solutions of which shall be
-          presented by the different teams. The preliminary round will help us
-          find the best teams, who will then be judged based on their skills in
-          the second round.
-        </p>
       )
     }
   ],
