@@ -633,43 +633,29 @@ export const events = {
             </em>{' '}
             – Glenn Close
           </p>
-          <p>Hello, Namaste, Adaab!</p>
+          <p>Namaste, Adaab, Hello!</p>
           <p>
-            Things are different. Things are difficult. Human beings -like any
-            other species- are bound to live in a society. This is a necessity
-            for being happy, for being stress free. But today the situation is
-            different. Isolation has become a necessity. Being alone, people are
-            getting depressed, suicidal, anxious, stressed and what not! Reasons
-            may vary but the ultimate point is overthinking.
+            ENCORE UNPLUGGED - <em>The Online Open Mic Event</em> in
+            collaboration with
+            <b> Write & Recite</b>, and <b>Lafz</b> wherein you can come up with
+            whatever has been eating you up inside and express it all in a go,
+            feel the vibes of magical voice voice of
+            <b> Radio Mirchi RJ Mehak </b>
+            and witness an talk with an author to know how your favorite novels
+            come to life!
           </p>
           <p className='sub-heading'>
-            <em>Themes:</em>
+            <em>Rules & Guidelines:</em>
           </p>
           <ul>
-            <li>Lockdown Emotions</li>
-            <li>Mental Health</li>
-          </ul>
-          <p className='sub-heading'>
-            <em>Rules:</em>
-          </p>
-          <ul>
-            <li>Time Limit: 3-5 minutes</li>
-            <li>Content should be original.</li>
+            <li>The event is free of any language barriers.</li>
+            <li>All genres/themes are accepted.</li>
+            <li>The time limit is 4 + 1 minutes.</li>
+            <li>No entry fee for the audience (registration compulsory).</li>
             <li>Bring a friend along to support other performers as well.</li>
           </ul>
           <p>
-            <b>No language barrier!</b>
-          </p>
-          <p>
-            <b>Free for Audience</b>
-          </p>
-          <p>
-            <b>Last Date for Registration:</b> 28th September
-          </p>
-          <p>
-            Selected candidates will be added to a WhatsApp group by September
-            30 & have to pay the registeration fee latest by October 1 to
-            confirm their slots.
+            <b>Time:</b> 5PM Onwards
           </p>
         </div>
       )
