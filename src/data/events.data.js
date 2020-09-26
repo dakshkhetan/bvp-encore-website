@@ -672,7 +672,7 @@ export const events = {
       name: 'Encore Unplugged',
       date: '3rd October',
       team: '1 member',
-      prize: 'TBD',
+      prize: '',
       registrationFee: <>{Rs()} 50</>,
       organisingSociety: '',
       registrationLink: 'https://forms.gle/qiLZBE1ptkfh3du99',

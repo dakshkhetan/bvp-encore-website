@@ -63,12 +63,14 @@ const Event = ({ event }) => {
               <span className='underline'>{team}</span>
             </p>
           </Fade>
-          <Fade bottom delay={400}>
-            <p>
-              <span>Prize Money: </span>
-              <span className='underline'>{prize}</span>
-            </p>
-          </Fade>
+          {prize && (
+            <Fade bottom delay={400}>
+              <p>
+                <span>Prize Money: </span>
+                <span className='underline'>{prize}</span>
+              </p>
+            </Fade>
+          )}
           <Fade bottom delay={400}>
             <p>
               <span>Registration Fee: </span>

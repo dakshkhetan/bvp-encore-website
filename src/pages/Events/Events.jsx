@@ -41,6 +41,7 @@ const Events = () => {
   const displayAllFreeEvents = (events) => {
     return (
       <React.Fragment>
+        {mapFreeEvents(events.anon)}
         {mapFreeEvents(events.enactus)}
         {mapFreeEvents(events.das)}
         {mapFreeEvents(events.acm)}
@@ -49,7 +50,6 @@ const Events = () => {
         {mapFreeEvents(events.isa)}
         {mapFreeEvents(events.aagaaz)}
         {mapFreeEvents(events.bvpcsi)}
-        {mapFreeEvents(events.anon)}
       </React.Fragment>
     );
   };
@@ -57,6 +57,7 @@ const Events = () => {
   const displayAllPaidEvents = (events) => {
     return (
       <React.Fragment>
+        {mapPaidEvents(events.anon)}
         {mapPaidEvents(events.enactus)}
         {mapPaidEvents(events.das)}
         {mapPaidEvents(events.acm)}
@@ -65,7 +66,6 @@ const Events = () => {
         {mapPaidEvents(events.isa)}
         {mapPaidEvents(events.aagaaz)}
         {mapPaidEvents(events.bvpcsi)}
-        {mapPaidEvents(events.anon)}
       </React.Fragment>
     );
   };
