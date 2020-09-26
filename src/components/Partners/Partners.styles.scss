@@ -1,5 +1,6 @@
 .section-partners {
-  height: 720px !important;
+  height: auto !important;
+  min-height: 530px;
   padding: 0 5%;
 
   .section-heading {
@@ -12,6 +13,7 @@
   .section-content {
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
 
     .partners-container {
       display: grid;
@@ -21,6 +23,7 @@
 
       .partner-image {
         cursor: pointer;
+        padding: 20px 0;
 
         img {
           width: 300px;

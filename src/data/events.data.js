@@ -599,17 +599,70 @@ export const events = {
       name: 'Quizzi-Qal',
       date: '3rd October',
       team: '1-3 members',
-      prize: 'TBD',
-      registrationFee: 'TBD',
+      prize: <>{Rs()} 500</>,
+      registrationFee: 'FREE',
       organisingSociety: 'BVPCSI',
-      registrationLink: '',
+      registrationLink: 'https://forms.gle/G9vCpfxZr1KhsqrZ9',
       poster: require('../assets/events/quizzi-qal.jpeg'),
       description: (
-        <p>
-          For all the enthusiastic quizzers out there, we will organise a fun
-          and interesting quiz based on a variety of topics. People can
-          participate individually or in groups of 2 or 3 members.
-        </p>
+        <div>
+          <p>
+            For all the enthusiastic quizzers out there, we will organise a fun
+            and interesting quiz based on a variety of topics.
+          </p>
+          <ul>
+            <li>
+              This is a general quiz that will consist of <b>4 rounds</b> of
+              questions from various topics that cover the fields of current
+              events, popular culture, entertainment, politics, economics etc.
+              Exact nature and total number of questions will be the
+              Quizmaster's discretion.
+            </li>
+            <li>
+              The event will last <b>30 minutes</b>. The participants will have
+              to complete the quiz within this time. There are no time
+              constraints on individual questions. At the end of the 30 minutes,
+              the participant which answers the maximum number of questions
+              correctly shall be the winner. Similarly second and third
+              positions will be awarded.
+            </li>
+            <li>
+              Questions are objective in nature and could follow any format
+              (visual, MCQ, fill in the blanks) according to the Quizmaster's
+              choice.
+            </li>
+            <li>
+              Each correct answer is given <b>+50 points</b>. There is <b>NO</b>{' '}
+              negative marking for incorrectly answered questions.
+            </li>
+            <li>
+              Looking up answers online is heavily discouraged and if evidence
+              of the same is found, participant will be disqualified. If anyone
+              found attempting the quiz who's name isn't there on the
+              registration list, that individual shall be disqualified.
+            </li>
+            <li>
+              Any student currently enrolled in a college or high school
+              (classes 10-12) is <b>eligible</b> to participate.
+            </li>
+            <li>
+              Quiz will be held on an online platform. Code of the quiz will be
+              shared with the participant using which they have to log in. The
+              questions will be there on the platform. Further instructions
+              shall be provided before the start of the quiz.
+            </li>
+            <li>
+              Rules are subject to change according to the organiser's
+              discretion.
+            </li>
+          </ul>
+          <p className='sub-heading'>
+            <b>Time:</b> 5PM Onwards
+          </p>
+          <p className='sub-heading'>
+            <b>Last date to register:</b> 1st October
+          </p>
+        </div>
       )
     }
   ],

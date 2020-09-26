@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Fade from 'react-reveal/Fade';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons';
 
 import { events } from '../../data/events.data';
 import { eventsList } from '../../data/events.data';
@@ -18,8 +20,55 @@ const Events = () => {
 
   const [isListOpen, toggleList] = useState(false);
 
-  const mapEventComponent = (events) =>
-    events.map((event) => <Event key={event.code} event={event} />);
+  const mapFreeEvents = (events) =>
+    events.map((event) => (
+      <React.Fragment>
+        {event.registrationFee === 'FREE' && (
+          <Event key={event.code} event={event} />
+        )}
+      </React.Fragment>
+    ));
+
+  const mapPaidEvents = (events) =>
+    events.map((event) => (
+      <React.Fragment>
+        {event.registrationFee !== 'FREE' && (
+          <Event key={event.code} event={event} />
+        )}
+      </React.Fragment>
+    ));
+
+  const displayAllFreeEvents = (events) => {
+    return (
+      <React.Fragment>
+        {mapFreeEvents(events.enactus)}
+        {mapFreeEvents(events.das)}
+        {mapFreeEvents(events.acm)}
+        {mapFreeEvents(events.edc)}
+        {mapFreeEvents(events.aura)}
+        {mapFreeEvents(events.isa)}
+        {mapFreeEvents(events.aagaaz)}
+        {mapFreeEvents(events.bvpcsi)}
+        {mapFreeEvents(events.anon)}
+      </React.Fragment>
+    );
+  };
+
+  const displayAllPaidEvents = (events) => {
+    return (
+      <React.Fragment>
+        {mapPaidEvents(events.enactus)}
+        {mapPaidEvents(events.das)}
+        {mapPaidEvents(events.acm)}
+        {mapPaidEvents(events.edc)}
+        {mapPaidEvents(events.aura)}
+        {mapPaidEvents(events.isa)}
+        {mapPaidEvents(events.aagaaz)}
+        {mapPaidEvents(events.bvpcsi)}
+        {mapPaidEvents(events.anon)}
+      </React.Fragment>
+    );
+  };
 
   return (
     <React.Fragment>
@@ -48,16 +97,34 @@ const Events = () => {
               </div>
             </div>
           </Fade>
-
-          {mapEventComponent(events.enactus)}
-          {mapEventComponent(events.das)}
-          {mapEventComponent(events.acm)}
-          {mapEventComponent(events.edc)}
-          {mapEventComponent(events.aura)}
-          {mapEventComponent(events.isa)}
-          {mapEventComponent(events.aagaaz)}
-          {mapEventComponent(events.bvpcsi)}
-          {mapEventComponent(events.anon)}
+          <Fade bottom delay={100}>
+            <h2 className='section-sub-heading'>
+              <FontAwesomeIcon
+                icon={faAngleDoubleDown}
+                className='icon arrow-down'
+              />
+              Free Events
+              <FontAwesomeIcon
+                icon={faAngleDoubleDown}
+                className='icon arrow-down'
+              />
+            </h2>
+          </Fade>
+          {displayAllFreeEvents(events)}
+          <Fade bottom delay={100}>
+            <h2 className='section-sub-heading'>
+              <FontAwesomeIcon
+                icon={faAngleDoubleDown}
+                className='icon arrow-down'
+              />
+              Paid Events
+              <FontAwesomeIcon
+                icon={faAngleDoubleDown}
+                className='icon arrow-down'
+              />
+            </h2>
+          </Fade>
+          {displayAllPaidEvents(events)}
         </div>
 
         <div className='illustration-container'>

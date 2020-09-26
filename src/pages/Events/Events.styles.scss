@@ -15,6 +15,16 @@
     margin: 0 0 60px;
   }
 
+  .section-sub-heading {
+    font-size: 1.8rem;
+    color: darken(#539dfe, 10%);
+    margin: 70px auto 50px;
+
+    .icon.arrow-down {
+      margin: 0 10px;
+    }
+  }
+
   .section-content {
     text-align: center;
 
@@ -224,6 +234,25 @@
               li {
                 text-align: justify;
               }
+            }
+          }
+        }
+      }
+
+      &.csi-1 {
+        .info {
+
+          .description {
+
+            p {
+              &.sub-heading {
+                font-weight: 600;
+                margin-bottom: 5px;
+              }
+            }
+
+            ul {
+              margin-bottom: 15px;
             }
           }
         }
