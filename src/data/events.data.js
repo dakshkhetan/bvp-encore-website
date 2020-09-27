@@ -103,9 +103,11 @@ export const events = {
       team: '1 member',
       prize: (
         <span className='prize-money'>
-          <span className='underline'>{Rs()} 200 (1st Prize)</span>
+          <span className='underline'>{Rs()} 300 (1st Prize)</span>
           <br />
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 100 (3rd Prize)</span>
         </span>
       ),
       registrationFee: 'FREE',
@@ -157,9 +159,11 @@ export const events = {
       team: '1 member',
       prize: (
         <span className='prize-money'>
-          <span className='underline'>{Rs()} 200 (1st Prize)</span>
+          <span className='underline'>{Rs()} 300 (1st Prize)</span>
           <br />
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 100 (3rd Prize)</span>
         </span>
       ),
       registrationFee: 'FREE',
@@ -200,9 +204,11 @@ export const events = {
       team: '1 member',
       prize: (
         <span className='prize-money'>
-          <span className='underline'>{Rs()} 200 (1st Prize)</span>
+          <span className='underline'>{Rs()} 300 (1st Prize)</span>
           <br />
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 100 (3rd Prize)</span>
         </span>
       ),
       registrationFee: 'FREE',
@@ -249,9 +255,11 @@ export const events = {
       team: '1 member',
       prize: (
         <span className='prize-money'>
-          <span className='underline'>{Rs()} 200 (1st Prize)</span>
+          <span className='underline'>{Rs()} 300 (1st Prize)</span>
           <br />
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
+          <br />
+          <span className='underline'>{Rs()} 100 (3rd Prize)</span>
         </span>
       ),
       registrationFee: 'FREE',
