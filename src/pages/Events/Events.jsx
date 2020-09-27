@@ -43,8 +43,8 @@ const Events = () => {
       <React.Fragment>
         {mapFreeEvents(events.anon)}
         {mapFreeEvents(events.enactus)}
-        {mapFreeEvents(events.das)}
         {mapFreeEvents(events.acm)}
+        {mapFreeEvents(events.das)}
         {mapFreeEvents(events.edc)}
         {mapFreeEvents(events.aura)}
         {mapFreeEvents(events.isa)}

@@ -9,22 +9,18 @@ export const eventsList = [
   },
   {
     code: 'das-1',
-    name: 'Bizzare Photography'
-  },
-  {
-    code: 'das-2',
     name: 'Lockdown Photojournalism'
   },
   {
-    code: 'das-3',
+    code: 'das-2',
     name: 'Macro Photography'
   },
   {
-    code: 'das-4',
+    code: 'das-3',
     name: 'Light Painting'
   },
   {
-    code: 'das-5',
+    code: 'das-4',
     name: 'Your Best Shot'
   },
   {
@@ -69,7 +65,7 @@ export const eventsList = [
   },
   {
     code: 'anon-1',
-    name: 'Encore Unplugged'
+    name: 'Encore Unplugged - Open Mic Event'
   }
 ];
 
@@ -78,7 +74,7 @@ export const events = {
     {
       code: 'enactus-1',
       name: 'Case-Vista',
-      date: '3rd October',
+      date: '4th October',
       team: '3-5 members',
       prize: <>{Rs()} 2000</>,
       registrationFee: 'FREE',
@@ -102,45 +98,6 @@ export const events = {
   das: [
     {
       code: 'das-1',
-      name: 'Bizzare Photography',
-      date: '3rd & 4th October',
-      team: '1 member',
-      prize: (
-        <span className='prize-money'>
-          <span className='underline'>{Rs()} 1000 (1st Prize)</span>
-          <br />
-          <span className='underline'>{Rs()} 200 (2nd Prize)</span>
-          <br />
-          <span className='underline'>{Rs()} 100 (3rd Prize)</span>
-        </span>
-      ),
-      registrationFee: 'FREE',
-      organisingSociety: 'DAS',
-      registrationLink: '',
-      poster: require('../assets/events/bizzare-photography.jpeg'),
-      description: (
-        <div>
-          <p>
-            DAS-BVP brings competion called 'Bizzare Photography' (yes, you read
-            it correct) at the ENCORE FEST an online fest on 3rd and 4th
-            October, 2020.
-            <br />
-            In this competion you have to send the most beautifully Bizzare pic
-            which you have ever clicked.
-          </p>
-          <ul>
-            <li>No registration fee.</li>
-            <li>Cash prizes worth Rs. 1300+.</li>
-            <li>All participants will receive certificates.</li>
-          </ul>
-          <p style={{ textAlign: 'left', margin: '10px 0 0' }}>
-            <b>Registrations opening on 26th September!</b>
-          </p>
-        </div>
-      )
-    },
-    {
-      code: 'das-2',
       name: 'Lockdown Photojournalism',
       date: '3rd October',
       team: '1 member',
@@ -151,7 +108,7 @@ export const events = {
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
-      registrationFee: <>{Rs()} 30</>,
+      registrationFee: 'FREE',
       organisingSociety: 'DAS',
       registrationLink: 'https://forms.gle/EqcYLnEGEoMoYqjP7',
       poster: require('../assets/events/lockdown-photojournalism.jpeg'),
@@ -194,7 +151,7 @@ export const events = {
       )
     },
     {
-      code: 'das-3',
+      code: 'das-2',
       name: 'Macro Photography',
       date: '3rd October',
       team: '1 member',
@@ -205,7 +162,7 @@ export const events = {
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
-      registrationFee: <>{Rs()} 30</>,
+      registrationFee: 'FREE',
       organisingSociety: 'DAS',
       registrationLink: 'https://forms.gle/XXRKAUC349yzdhBg9',
       poster: require('../assets/events/macro-photography.jpeg'),
@@ -237,7 +194,7 @@ export const events = {
       )
     },
     {
-      code: 'das-4',
+      code: 'das-3',
       name: 'Light Painting',
       date: '3rd October',
       team: '1 member',
@@ -248,7 +205,7 @@ export const events = {
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
-      registrationFee: <>{Rs()} 30</>,
+      registrationFee: 'FREE',
       organisingSociety: 'DAS',
       registrationLink: 'https://forms.gle/RZ23PDMV52eRE6Q6A',
       poster: require('../assets/events/light-painting.jpeg'),
@@ -286,7 +243,7 @@ export const events = {
       )
     },
     {
-      code: 'das-5',
+      code: 'das-4',
       name: 'Your Best Shot',
       date: '3rd October',
       team: '1 member',
@@ -297,7 +254,7 @@ export const events = {
           <span className='underline'>{Rs()} 100 (2nd Prize)</span>
         </span>
       ),
-      registrationFee: <>{Rs()} 30</>,
+      registrationFee: 'FREE',
       organisingSociety: 'DAS',
       registrationLink: 'https://forms.gle/6w8eL9AoSjxmB1aq5',
       poster: require('../assets/events/your-best-shot.jpeg'),
