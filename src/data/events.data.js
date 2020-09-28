@@ -515,7 +515,7 @@ export const events = {
       ),
       registrationFee: <>{Rs()} 80</>,
       organisingSociety: 'ISA',
-      registrationLink: '',
+      registrationLink: 'https://dare2compete.com/competitions/info/128582',
       poster: require('../assets/events/ideathon.jpeg'),
       description: (
         <p>
