@@ -108,7 +108,7 @@ export const events = {
       prize: <>{Rs()} 700</>,
       registrationFee: <>{Rs()} 50</>,
       organisingSociety: 'DAS',
-      registrationLink: '',
+      registrationLink: 'https://dare2compete.com/o/4mftLCh',
       poster: require('../assets/events/anime-quiz.jpeg'),
       description: (
         <div>
