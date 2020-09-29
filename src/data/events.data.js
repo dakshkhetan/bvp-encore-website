@@ -9,18 +9,22 @@ export const eventsList = [
   },
   {
     code: 'das-1',
-    name: 'Lockdown Photojournalism'
+    name: 'Anime Quiz'
   },
   {
     code: 'das-2',
-    name: 'Macro Photography'
+    name: 'Lockdown Photojournalism'
   },
   {
     code: 'das-3',
-    name: 'Light Painting'
+    name: 'Macro Photography'
   },
   {
     code: 'das-4',
+    name: 'Light Painting'
+  },
+  {
+    code: 'das-5',
     name: 'Your Best Shot'
   },
   {
@@ -98,6 +102,51 @@ export const events = {
   das: [
     {
       code: 'das-1',
+      name: 'Anime Quiz',
+      date: '4th October',
+      team: '1 member',
+      prize: <>{Rs()} 700</>,
+      registrationFee: <>{Rs()} 50</>,
+      organisingSociety: 'DAS',
+      registrationLink: '',
+      poster: require('../assets/events/anime-quiz.jpeg'),
+      description: (
+        <div>
+          <p>
+            Do you know God Of Death Loves Apples? If <b>yes</b>, then this is a
+            must event for all of you to participate in!
+          </p>
+          <p>
+            Konnichiwa to all the weebs/otakus out there. For the first time,
+            DAS-BVP brings you an 'Anime Quiz' for all of you closet,
+            hyperactive and degenerate weebs for the first time ever which is
+            going to happen in our college.
+          </p>
+          <p>
+            The quiz has <b>3 rounds</b>:
+          </p>
+          <ul>
+            <li>Normie Kun</li>
+            <li>Intermediate Kun</li>
+            <li>Otaku Sama</li>
+          </ul>
+          <p>
+            <br />
+            <em>
+              “When you pick the only option you have to choose from, can you
+              really call that your own decision?”{' '}
+            </em>
+            – Hayato Hayama
+          </p>
+          <p>
+            We are giving you one option. Let the battle royale begin!{' '}
+            <b>じゃあね</b>
+          </p>
+        </div>
+      )
+    },
+    {
+      code: 'das-2',
       name: 'Lockdown Photojournalism',
       date: '3rd October',
       team: '1 member',
@@ -153,7 +202,7 @@ export const events = {
       )
     },
     {
-      code: 'das-2',
+      code: 'das-3',
       name: 'Macro Photography',
       date: '3rd October',
       team: '1 member',
@@ -198,7 +247,7 @@ export const events = {
       )
     },
     {
-      code: 'das-3',
+      code: 'das-4',
       name: 'Light Painting',
       date: '3rd October',
       team: '1 member',
@@ -249,7 +298,7 @@ export const events = {
       )
     },
     {
-      code: 'das-4',
+      code: 'das-5',
       name: 'Your Best Shot',
       date: '3rd October',
       team: '1 member',
